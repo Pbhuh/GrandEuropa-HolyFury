@@ -1,0 +1,27 @@
+# 365 - Brandenburg
+
+# County Title
+title = c_wittenberg
+
+# Settlements
+max_settlements = 5
+b_juterborg = tribal
+#
+
+#b_berlin = city
+#b_ruppin = castle
+#b_oranienburg = castle
+#b_muncheberg = castle
+
+# Misc
+culture = pommeranian
+religion = slavic_pagan
+
+# History
+800.1.1 = {
+	b_juterborg = castle
+	b_coswig = temple
+}
+1180.1.1 = { b_wittenberg = city } 
+1200.1.1 = { culture = german } 
+1200.1.1 = { religion = catholic } 

@@ -1,0 +1,29 @@
+# 2119 - Medina Sidonia
+
+# County Title
+title = c_medinasidonia
+
+# Settlements castle/city/temple
+max_settlements = 3
+
+b_medinasidonia = castle
+b_alcaladelosgazules = city
+# b_chiclanadelafrontera = castle
+# b_vejerdelafrontera = city
+
+# Misc
+culture = visigothic
+religion = catholic
+
+# History
+762.1.1 = {
+	culture = maghreb_arabic
+	religion = sunni
+}
+1000.1.1 = {
+	culture = andalusian_arabic
+}
+1314.1.1 = {
+	culture = castillan
+	religion = catholic
+}

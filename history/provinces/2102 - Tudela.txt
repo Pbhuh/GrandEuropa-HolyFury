@@ -1,0 +1,18 @@
+# 2102 - Tudela
+
+# County Title
+title = c_tudela
+
+# Settlements castle/city/temple
+max_settlements = 3 
+b_tudela = castle
+b_cintruenigo = city
+b_bunuel = temple
+#b_tudilen = castle
+#b_ablitas = city
+
+# Misc
+culture = basque
+religion = catholic
+
+# History

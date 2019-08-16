@@ -1,0 +1,18 @@
+# 690 - Al Amarah
+
+# County Title
+title = c_diyala
+
+# Settlements
+max_settlements = 3
+b_diyala = castle
+
+#b_suwaira = city
+#b_azeeziaya = castle
+#b_hai = castle
+
+#Misc
+culture = levantine_arabic
+religion = sunni
+
+# History

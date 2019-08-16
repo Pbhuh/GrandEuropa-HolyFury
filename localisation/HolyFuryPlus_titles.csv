@@ -1,0 +1,85 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+########################################;;;;;;;;;;;;;;
+c_antwerp;Antwerpen;;;;;;;;;;;;;x
+c_mark;Mark;;;;;;;;;;;;;x
+c_namur;Namur;;;;;;;;;;;;;x
+c_tecklenburg;Tecklenburg;;;;;;;;;;;;;x
+c_laon;Laon;;;;;;;;;;;;;x
+c_chalonschamp;Chalons;;;;;;;;;;;;;x
+c_arlon;Chiny;;;;;;;;;;;;;x
+c_rethel;Rethel;;;;;;;;;;;;;x
+c_breda;'s Hertogenbosch;;;;;;;;;;;;;x
+c_hadeln;Hadeln;;;;;;;;;;;;;x
+c_heidelberg;Heidelberg;;;;;;;;;;;;;x
+c_cambresis;Cambresis;;;;;;;;;;;;;x
+c_eger_czch;Eger;;;;;;;;;;;;;x
+c_drenthe;Drenthe;;;;;;;;;;;;;x
+c_Ommelanden;Ommelanden;;;;;;;;;;;;;x
+c_haarlem;Haarlem;;;;;;;;;;;;;x
+c_darmstadt;Darmstadt;;;;;;;;;;;;;x
+c_epinal;Epinal;;;;;;;;;;;;;x
+c_bautzen;Bautzen;;;;;;;;;;;;;x
+c_zerbst;Zerbst;;;;;;;;;;;;;x
+c_ruppin;Ruppin;;;;;;;;;;;;;x
+c_northfrisia;North Frisia;;;;;;;;;;;;;x
+c_aabenraa;Aabenraa;;;;;;;;;;;;;x
+c_ingolstadt;Ingolstadt;;;;;;;;;;;;;x
+c_straubing;Straubing;;;;;;;;;;;;;x
+c_munich;München;;;;;;;;;;;;;x
+c_oettingen;Oettingen;;;;;;;;;;;;;x
+c_zollern;Zollern;;;;;;;;;;;;;x
+c_urach;Urach;;;;;;;;;;;;;x
+
+c_viscaya;Biscay;;;;;;;;;;;;;x
+c_alava;Alava;;;;;;;;;;;;;x
+c_tudela;Tudela;;;;;;;;;;;;;x
+c_lowernavarra;Ultrapuertos;;;;;;;;;;;;;x
+c_estella;Estella;;;;;;;;;;;;;x
+c_olite;Olite;;;;;;;;;;;;;x
+c_ourique;Ourique;;;;;;;;;;;;;x
+c_beja;Beja;;;;;;;;;;;;;x
+c_tavira;Tavira;;;;;;;;;;;;;x
+c_zafra;Zafra;;;;;;;;;;;;;x
+c_llerena;Llerena;;;;;;;;;;;;;x
+c_constantina;Constantina;;;;;;;;;;;;;x
+c_tejada;Tejada;;;;;;;;;;;;;x
+c_cabra;Cabra;;;;;;;;;;;;;x
+c_ecija;Ecija;;;;;;;;;;;;;x
+c_carmona;Carmona;;;;;;;;;;;;;x
+c_utrera;Utrera;;;;;;;;;;;;;x
+c_jerez;Jerez;;;;;;;;;;;;;x
+c_medinasidonia;Medina Sidonia;;;;;;;;;;;;;x
+c_ronda;Ronda;;;;;;;;;;;;;x
+c_moron;Moron;;;;;;;;;;;;;x
+
+#
+d_artois;Artois;;;;;;;;;;;;;x
+d_frisia;Frisia;;;;;;;;;;;;;x
+d_upper_saxony;Upper Saxony;;;;;;;;;;;;;x
+d_nordalbingia;Nord Albingia;;;;;;;;;;;;;x
+d_hainaut;Hainaut;;;;;;;;;;;;;x
+d_ostfalen;Ostfalen;;;;;;;;;;;;;x
+d_liege;Liege;;;;;;;;;;;;;x
+d_upper_silesia;Upper Silesia;;;;;;;;;;;;;x
+d_lower_silesia;Lower Silesia;;;;;;;;;;;;;x
+d_erzgebirge;Erzgebirge;;;;;;;;;;;;;x
+d_prague;Prague;;;;;;;;;;;;;x
+d_oberbayern;Oberbayern;;;;;;;;;;;;;x
+d_niederbayern;Niederbayern;;;;;;;;;;;;;x
+d_sieradz;Sieradz;;;;;;;;;;;;;x
+d_mecca;Mecca;;;;;;;;;;;;;x
+d_neckar;Neckar;;;;;;;;;;;;;x
+d_tabuk;Tabuk;;;;;;;;;;;;;x
+d_gothien;Gothien;;;;;;;;;;;;;x
+
+d_biscay;Biscay;;;;;;;;;;;;;x
+d_osuna;Osuna;;;;;;;;;;;;;x
+d_arcos;Arcos;;;;;;;;;;;;;x
+
+k_libya;Libya;;;;;;;;;;;;;x
+
+k_galicia;Galicia;;;;;;;;;;;;;x
+k_seville;Seville;;;;;;;;;;;;;x
+
+#
+e_mesopotamia;Mesopotamia;;;;;;;;;;;;;x

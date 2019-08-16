@@ -1,0 +1,28 @@
+# 2109 - Zafra
+
+# County Title
+title = c_zafra
+
+# Settlements castle/city/temple
+max_settlements = 2
+
+b_segura = castle
+b_zafra = town
+# b_olivadelafrontera = temple
+
+# Misc
+culture = visigothic
+religion = catholic
+
+# History
+764.1.1 = {
+	culture = maghreb_arabic
+	religion = sunni
+}
+1000.1.1 = {
+	culture = andalusian_arabic
+}
+1291.1.1 = {
+	culture = castillan
+	religion = catholic
+}

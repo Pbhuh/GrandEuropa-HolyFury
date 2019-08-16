@@ -1,0 +1,16 @@
+# 2103 - LowerNavarra
+
+# County Title
+title = c_lowernavarra
+
+# Settlements castle/city/temple
+max_settlements = 2
+b_saintjean = castle
+b_osses = city
+#b_saintpalais = temple
+
+# Misc
+culture = basque
+religion = catholic
+
+# History

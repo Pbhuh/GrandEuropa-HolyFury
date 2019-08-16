@@ -1,0 +1,47 @@
+765.1.1={
+	liege=d_franconia
+}
+826.1.1={
+	liege=k_germany
+}
+906.1.1=
+{
+liege="d_franconia"
+}
+927.1.1 = {
+	liege=k_germany
+	holder=900001
+}
+1059.1.1={
+	liege="d_franconia"
+}
+1059.1.1={
+	holder=20256
+}
+1125.8.24 =
+{
+liege="e_hre"
+}
+1220.1.1 = {
+	liege = d_thuringia
+}
+1221.1.1 = {
+	holder = 900000
+1251.1.25=
+{
+liege = e_hre
+}
+
+
+#STARTDATES:
+#769
+#867
+#936
+#1066
+#1066 later
+#1081
+#1187
+#1204
+#1220
+#1241
+#1337

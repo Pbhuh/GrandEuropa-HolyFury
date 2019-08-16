@@ -1,0 +1,20 @@
+# 2182 - Haarlem
+
+# County Title
+title = c_haarlem
+
+# Settlements
+max_settlements = 4
+
+b_haarlem = temple
+b_muiden = castle
+#b_amsterdam = city
+
+# Misc
+culture = frisian
+religion = catholic
+
+# History
+790.1.1 = { culture = dutch }
+1306.1.1 = { b_amsterdam = city }
+1317.1.1 = { trade_post = b_warendorp }

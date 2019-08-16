@@ -1,0 +1,18 @@
+# 651 - Damman
+
+# County Title
+title = c_jubail
+
+# Settlements
+max_settlements = 2
+
+b_jubail = castle
+#b_damman = castle 
+#b_alaba = castle
+#b_hinnah = castle
+#b_abuhadriya = castle
+
+culture = bedouin_arabic
+religion = sunni
+
+# History

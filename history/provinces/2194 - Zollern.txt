@@ -1,0 +1,17 @@
+# 251 - Fürstenberg
+
+# County Title
+title = c_zollern
+
+# Settlements
+max_settlements = 4
+
+b_zollern = castle
+b_rottweil = city
+
+# Misc
+culture = german
+religion = catholic
+
+# History
+

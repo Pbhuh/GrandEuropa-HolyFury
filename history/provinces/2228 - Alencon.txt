@@ -1,0 +1,42 @@
+# 99 - Evreux
+
+# County Title
+title = c_alencon
+
+# Settlements
+max_settlements = 5
+b_alencon = city 
+b_argentan = castle
+
+# Misc
+culture = old_frankish
+religion = catholic
+
+# History
+790.1.1 = { culture = frankish }
+911.1.1 = { # Viking takeover
+
+	b_argentan = ca_keep_1
+	b_argentan = ca_training_grounds_1
+	b_argentan = ca_stable_1
+	b_argentan = ca_wall_1
+	b_argentan = ca_wall_2
+	b_argentan = ca_militia_barracks_1
+	b_argentan = ca_barracks_1
+	b_argentan = ca_town_1
+	
+	#b_alencon = ct_port_1
+}
+
+936.1.1 = {
+	culture = norman
+}
+
+1066.1.1 = {
+	#b_alencon = ct_wall_1
+	#b_alencon = ct_wall_2
+	#b_alencon = ct_port_2
+	#b_alencon = ct_port_3
+}
+
+1100.11.11 = { culture = frankish }

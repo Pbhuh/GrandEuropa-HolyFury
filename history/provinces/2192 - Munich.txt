@@ -1,0 +1,15 @@
+# 360 - Oberbayern
+
+# County Title
+title = c_munich
+
+# Settlements
+max_settlements = 4
+b_munchen = castle
+b_dachau = city
+
+# Misc
+culture = german
+religion = catholic
+
+# History

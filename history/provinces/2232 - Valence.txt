@@ -1,0 +1,15 @@
+# 228 - Dauphine Viennois
+
+# County Title
+title = c_valence
+
+# Settlements
+max_settlements = 4
+
+b_valence = castle
+
+# Misc
+culture = occitan
+religion = catholic
+
+# History

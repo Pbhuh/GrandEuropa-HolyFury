@@ -1,0 +1,46 @@
+# 264 - Slesvig
+
+# County Title
+title = c_aabenraa
+
+# Settlements
+max_settlements = 4
+b_aabenraa = tribal
+b_ribe = city
+
+#b_sonderborg = castle
+
+#b_tonder = castle
+#b_aabenraa = temple
+#b_haderslev = city
+#b_kolding = castle
+
+# Misc
+culture = norse
+religion = norse_pagan
+
+# History
+800.1.1 = {
+	b_slesvig = tb_shipyard_1
+}
+1000.1.1 = {
+	b_aabenraa = castle
+	b_sonderborg = temple
+	#b_hedeby = city
+	#b_ribe = temple
+
+	b_hedeby = ct_port_1
+	b_hedeby = ct_marketplace_1
+	b_slesvig = ca_shipyard_1
+	b_sonderborg = ca_shipyard_1
+	b_ribe = tp_shipyard_1
+}
+1066.1.1 = {
+	culture = danish
+	religion = catholic
+	remove_settlement = b_ribe
+	b_tonder = city
+}
+1275.1.1 = { trade_post = b_vorrade }
+
+

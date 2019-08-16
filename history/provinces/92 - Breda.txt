@@ -1,0 +1,32 @@
+# 92 - Breda
+
+# County Title
+title = c_toxandria
+
+# Settlements
+
+max_settlements = 5
+
+b_shertogenbosch = temple
+b_tilburg = city
+b_oss = castle
+
+#b_cuijck = castle
+#b_ravenstein = castle
+
+#CUT
+#b_breda = castle
+#b_willemstad = castle
+#b_bergenopZoom = castle
+
+#b_horn = castle #UNSURE
+
+# Misc
+culture = old_frankish
+religion = catholic
+
+# History
+790.1.1 = { culture = dutch }
+1066.1.1 = { capital = b_oss }
+1333.1.1 = { trade_post = b_warendorp }
+

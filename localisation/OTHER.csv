@@ -1,0 +1,61 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+#COUNTY_KLEVE;Kleve;Clèves;Kleve;;Cléveris;;;;;;;;;x
+#COUNTY_KLEVE_ADJ;Klevian;clévoise;Klevisch;;Clevereño;;;;;;;;;x
+#DUCHY_HOLLAND;Holland;Hollande;Holland;;Holanda;;;;;;;;;x
+#DUCHY_HOLLAND_ADJ;Hollander;hollandaise;Holländisch;;Holandesa;;;;;;;;;x
+#COUNTY_HOLLAND;Holland;Hollande;Holland;;Holanda;;;;;;;;;x
+#COUNTY_HOLLAND_ADJ;Hollander;hollandaise;Holländisch;;Holandesa;;;;;;;;;x
+#COUNTY_WESTFRIESLAND;Westfriesland;Frise occidentale;Westfriesland;;Westfriesland;;;;;;;;;x
+#COUNTY_WESTFRIESLAND_ADJ;Westfrieslander;frisonne occidentale;Westfriesisch;;Frisio;;;;;;;;;x
+#COUNTY_GELRE;Gelre;Gueldre;Geldern;;Gelre;;;;;;;;;x
+#COUNTY_GELRE_ADJ;Gelrian;gueldrienne;Geldrisch;;Gelrianés;;;;;;;;;x
+#DUCHY_GELRE;Gelre;Gueldre;Geldern;;Gelre;;;;;;;;;x
+#DUCHY_GELRE_ADJ;Gelrian;gueldrienne;Geldrisch;;Gelrianés;;;;;;;;;x
+#COUNTY_BREDA;Breda;Bréda;Breda;;Breda;;;;;;;;;x
+#COUNTY_BREDA_ADJ;Bredian;brédoise;Bredisch;;Brenés;;;;;;;;;x
+#ARLES;Arles;Arles;Arles;;Arlés;;;;;x
+#ARLES_ADJ;Arletian;arlésienne;Arlesisch;;arlesiano;;;;;x
+#HAMALAND;Hamaland;Hamaland;Hamaland;;Hamaland;;;;;;;;;x
+#HAMALAND_ADJ;Hamalander;hamalander;Hamalandisch;;hamalandés;;;;;;;;;x
+#TEISTERBANT;Teisterbant;Teisterbant;Teisterbant;;Teisterbant;;;;;;;;;x
+#TEISTERBANT_ADJ;Teisterbanter;teisterbanter;Teisterbantisch;;teisterbantés;;;;;;;;;x
+#KENNEMERLAND;Kennemerland;Kennemerland;Kennemerland;;Kennemerland;;;;;;;;;x
+#KENNEMERLAND_ADJ;Kennemerlander;kennemerlander;Kennemerländisch;;kennemerlandés;;;;;;;;;x
+#WEST_FRISIA;West-Frisia;Frise occidentale;Westfrisien;;Frisia Occidental;;;;;;;;;x
+#WEST_FRISIA_ADJ;West-Frisian;frisonne;Westfrisisch;;frisón occidental;;;;;;;;;x
+#DUCHY_CHAMAVIA;Chamavia;Chamavie;Chamavia;;Chamavia;;;;;;;;;x
+#DUCHY_CHAMAVIA_ADJ;Chamavian;chamavienne;Chamavisch;;chamavo;;;;;;;;;x
+#TOXANDRIA;Toxandria;Toxandrie;Toxandrien;;Toxandria;;;;;;;;;x
+#TOXANDRIA_ADJ;Toxandrian;toxandrienne;Toxandrisch;;toxandriano;;;;;;;;;x
+#HATTUARIA;Hattuaria;Hattuarie;Hattuarien;;Chatuaria;;;;;;;;;x
+#HATTUARIA_ADJ;Hattuarian;hattuarienne;Hattuarisch;;chatuario;;;;;;;;;x
+VELUWE;Veluwe;Veluwe;Veluwe;;Veluwe;;;;;;;;;x
+VELUWE_ADJ;Veluwse;Veluwse;Veluwse;;Veluwse;;;;;;;;;x
+WESTFLINGE;Westflinge;Westflinge;Westflinge;;Westflinge;;;;;;;;;x
+WESTFLINGE_ADJ;Westflingse;Westflingse;Westflingse;;Westflingse;;;;;;;;;x
+ZUTPHEN;Zutphen;Zutphen;Zutphen;;Zutphen;;;;;;;;;x
+ZUTPHEN_ADJ;Zutphense;Zutphense;Zutphense;;Zutphense;;;;;;;;;x
+DENBOSCH;'s Hertogenbosch;'s Hertogenbosch;'s Hertogenbosch;;'s Hertogenbosch;;;;;;;;;x
+DENBOSCH_ADJ;'s Hertogenbosche;'s Hertogenbosche;'s Hertogenbosche;;'s Hertogenbosche;;;;;;;;;x
+BRUNSWICKLUNEBURG;Braunschweig;Braunschweig;Braunschweig;;Braunschweig;;;;;;;;;x
+BRUNSWICKLUNEBURG_ADJ;Braunschweiger;Braunschweiger;Braunschweiger;;Braunschweiger;;;;;;;;;x
+RUGEN;Rugen;Rugen;Rugen;;Rugen;;;;;;;;;x
+RUGEN_ADJ;Rugener;Rugener;Rugener;;Rugener;;;;;;;;;x
+CISPOMERANIA;Vorpommern;Vorpommern;Vorpommern;;Vorpommern;;;;;;;;;x
+CISPOMERANIA_ADJ;Vorpomeranian;Vorpomeranian;Vorpomeranian;;Vorpomeranian;;;;;;;;;x
+POMERANIA_ADJ;Pomerania;Pomerania;Pomerania;;Pomerania;;;;;;;;;x
+POMERANIA_ADJ;Pomeranian;Pomeranian;Pomeranian;;Pomeranian;;;;;;;;;x
+TRANSPOMERANIA_ADJ;Hinterpommern;Hinterpommern;Hinterpommern;;Hinterpommern;;;;;;;;;x
+TRANSPOMERANIA_ADJ;Hinterpomeranian;Hinterpomeranian;Hinterpomeranian;;Hinterpomeranian;;;;;;;;;x
+THREANTE;Threante;Threante;Threante;;Threante;;;;;;;;;x
+THREANTE_ADJ;Threanter;Threanter;Threanter;;Threanter;;;;;;;;;x
+DRENTHE;Drenthe;Drenthe;Drenthe;;Drenthe;;;;;;;;;x
+DRENTHE_ADJ;Drenthse;Drenthse;Drenthse;;Drenthse;;;;;;;;;x
+COUNTY_HAARLEM;Haarlem;Haarlem;Haarlem;;Haarlem;;;;;;;;;x
+COUNTY_HAARLEM_ADJ;Haarlemse;Haarlemse;Haarlemse;;Haarlemse;;;;;;;;;x
+RYEN;Ryen;Ryen;Ryen;;Ryen;;;;;;;;;x
+RYEN_ADJ:Ryener;Ryener;Ryener;;Ryener;;;;;;;;;x
+ANTWERP;Antwerpen;Antwerpen;Antwerpen;;Antwerpen;;;;;;;;;x
+ANTWERP_ADJ;Antwerpse;Antwerpse;Antwerpse;;Antwerpse;;;;;;;;;x
+WITTENBERG;Wittenberg;Wittenberg;Wittenberg;;Wittenberg;;;;;;;;;x
+WITTENBERG_ADJ:Wittenberger;Wittenberger;Wittenberger;;Wittenberg;;;;;;;;;x

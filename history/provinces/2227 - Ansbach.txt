@@ -1,0 +1,23 @@
+# 2227 - Ansbach
+
+# County Title
+title = c_ansbach
+
+# Settlements
+max_settlements = 4
+b_ansbach = castle
+
+#UNSURE
+
+#b_cadolzburg = castle
+#b_colmberg = castle
+#b_roth = city
+#b_uffenheim = castle
+#b_crailsheim = castle
+
+# Misc
+culture = german
+religion = catholic
+
+# History
+#1337.1.1 = { b_ansbach = castle }

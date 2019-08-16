@@ -1,0 +1,19 @@
+# 201 - Nájera
+
+# County Title
+title = c_najera
+
+# Settlements castle/city/temple
+max_settlements = 4
+b_najera = castle
+b_logrono = city
+b_arnedo = temple
+#b_sanmillan = temple
+#b_calahorra = city
+#b_alfara = castle
+
+# Misc
+culture = basque
+religion = catholic
+
+# History

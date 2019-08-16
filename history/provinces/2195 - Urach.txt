@@ -1,0 +1,17 @@
+# 253 - Württemberg
+
+# County Title
+title = c_urach
+
+# Settlements
+max_settlements = 4
+b_urach = castle
+b_reutlingen = city
+
+# Misc
+culture = german
+religion = catholic
+
+# History
+
+

@@ -1,0 +1,18 @@
+# 1981 - Frankfurt
+
+# County Title
+title = c_darmstadt
+
+# Settlements
+max_settlements = 4
+#b_frankfurt = temple
+b_katzenelnbogen = city
+#b_wiesbaden = city
+b_darmstadt = castle
+
+# Misc
+culture = old_frankish
+religion = catholic
+
+# History
+790.1.1 = { culture = german }

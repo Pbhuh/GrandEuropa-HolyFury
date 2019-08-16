@@ -1,0 +1,22 @@
+900000 = {
+	name = "Conrad" #Konrad III von Malkos
+	religion = catholic
+	culture = german
+	1191.1.1 = { #NO DATA expected death at 58, and abbot at 30
+		birth = yes
+	}
+	1249.1.1 = {
+		death = yes
+	}
+}
+900001 = {
+	name = "Hadamar"
+	religion = catholic
+	culture = german
+	897.1.1 = { #NO DATA expected death at 59, and abbot at 30
+		birth = yes
+	}
+	956.1.1 = {
+		death = yes
+	}
+}

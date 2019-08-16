@@ -1,0 +1,22 @@
+# 121 - Nassau
+
+# County Title
+title = c_fulda
+
+# Settlements
+max_settlements = 4
+b_fulda = temple
+b_hersfeld = castle #technically temple
+#b_rotenburg_hesse = castle
+#b_gersfeld = city
+#b_hunfeld = castle
+
+#cut
+#b_falkenstein = castle
+#b_isenburg = castle
+
+# Misc
+culture = german
+religion = catholic
+
+# History

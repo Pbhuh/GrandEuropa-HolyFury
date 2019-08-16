@@ -1,0 +1,38 @@
+# 2223 - Uckermark
+
+# County Title
+title = c_uckermark
+
+# Settlements
+max_settlements = 3
+b_prenzlau = tribal
+#b_templin = temple
+
+#b_strelitz = castle
+#b_stargard = castle		#already used in c_stettin
+#b_friedland = castle
+
+#b_angermunde = castle
+#b_schwedt = castle
+
+# Misc
+culture = pommeranian
+religion = slavic_pagan
+
+# History
+800.1.1 = {
+	b_prenzlau	= castle
+	b_templin = temple
+
+	#b_waren = ca_keep_1
+	#b_waren = ca_militia_barracks_1
+	#b_waren = ca_wall_1
+	#b_waren = ca_wall_q_1
+}
+
+# Christianity only arrived with the Danish king Valdemar I
+1168.1.1 = { religion = catholic }
+1277.1.1 = { trade_post = b_bardewik }
+
+
+

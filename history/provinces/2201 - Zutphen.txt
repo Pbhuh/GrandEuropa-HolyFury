@@ -1,0 +1,17 @@
+# 83 - Gelre
+
+# County Title
+title = c_zutphen
+
+# Settlements
+max_settlements = 5
+
+b_doetinchem = castle
+b_zutphen = city
+
+# Misc
+culture = frisian
+religion = catholic
+
+# History
+790.1.1 = { culture = dutch }

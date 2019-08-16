@@ -1,0 +1,27 @@
+# 257 - Braunschweig
+
+# County Title
+title = c_calenberg
+
+# Settlements
+max_settlements = 4
+b_calenberg = tribal
+
+#UNSURE
+#b_helmstedt = castle
+#b_gandersheim = castle
+#b_northeim = castle
+
+# Misc
+culture = old_saxon
+religion = norse_pagan
+
+# History
+790.1.1 = {
+	culture = german
+	religion = catholic
+
+	b_calenberg = castle
+	b_hannover = city
+}
+#1127.1.1 = { b_waldeck = castle }

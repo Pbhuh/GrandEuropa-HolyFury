@@ -1,0 +1,38 @@
+# 2202 - Antwerp
+#Margraviate of Antwerp
+
+# County Title
+title = c_breda
+
+# Settlements
+max_settlements = 3
+
+b_antwerpen = city
+b_turnhout = temple
+b_breda = castle
+
+#b_bergenopZoom = castle
+#b_willemstad = castle
+#b_lier = castle
+
+#MERGED BRABANT WITH OLD BREDA
+
+#b_cuijck = castle
+#b_ravenstein = castle
+#b_horn = castle
+
+#NOT ELIGABLE 
+#b_leuven = castle
+#b_brussel = city
+#b_mechelen = temple
+#b_aarschot = castle
+#b_grimbergen = castle
+#b_herstal = castle
+
+# Misc
+culture = old_frankish
+religion = catholic
+
+# History
+
+790.1.1 = { culture = dutch }

@@ -1,0 +1,31 @@
+# Eger
+
+# County Title
+title = c_eger
+
+# Settlements
+max_settlements = 3
+b_eger_czch = tribal #Cheb
+
+#b_sokolov = castle #Falkenau
+
+#UNSURE
+
+#b_osek = temple
+#b_louny = city
+#b_bilina = castle
+#b_kadan = city
+#b_teplice = temple
+#b_chomutov = castle
+
+
+# Misc
+culture = bohemian
+religion = slavic_pagan
+
+# History
+883.1.1 = {
+	b_eger_czch = city
+	b_karlsbad = castle
+}
+883.1.1 = { religion = catholic }

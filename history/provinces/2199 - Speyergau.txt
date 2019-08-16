@@ -1,0 +1,16 @@
+# 2199 - Speyergau
+
+# County Title
+title = c_speyergau
+
+# Settlements
+max_settlements = 4
+b_speyer = temple
+b_germersheim = city
+b_landau_pfalz = castle
+
+# Misc
+culture = german
+religion = catholic
+
+# History

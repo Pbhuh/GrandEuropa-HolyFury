@@ -1,0 +1,19 @@
+# 1987 - Hesse
+
+# County Title
+title = c_hesse
+
+# Settlements
+max_settlements = 5
+b_marburg = castle
+b_wetzlar = city
+b_ziegenhain = castle
+
+#b_giessen = castle
+#b_kirchhain = temple
+
+# Misc
+culture = german
+religion = catholic
+
+# History

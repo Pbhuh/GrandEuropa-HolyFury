@@ -1,0 +1,31 @@
+# 182 - Sevilla
+
+# County Title
+title = c_sevilla
+
+# Settlements castle/city/temple
+max_settlements = 5
+
+b_albaidadelaljerafe = castle
+b_seville = city
+b_sanlucarlemayor = temple
+b_santiponce = city
+# b_laalgaba = castle
+# b_tomares = city
+
+# Misc
+culture = visigothic
+religion = catholic
+
+# History
+762.1.1 = {
+	culture = bedouin_arabic
+	religion = sunni
+}
+1000.1.1 = {
+	culture = andalusian_arabic
+}
+1298.1.1 = {
+	culture = castillan
+	religion = catholic
+}

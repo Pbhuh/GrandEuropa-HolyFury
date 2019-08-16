@@ -1,0 +1,28 @@
+# 1979 - Minden
+
+# County Title
+title = c_minden
+
+# Settlements
+max_settlements = 3
+b_minden = tribal
+
+#b_hoya = castle
+
+# Misc
+culture = old_saxon
+religion = norse_pagan
+
+# History
+790.1.1 = {
+	culture = german
+	religion = catholic
+	
+	#b_auburg = castle
+	b_hoya = castle
+	b_minden = temple
+	b_petershagen = temple
+}
+803.1.1 = {
+	capital = b_minden 
+}

@@ -1,0 +1,18 @@
+# 641 - Hormuz
+
+# County Title
+title = c_hormuz
+
+# Settlements
+max_settlements = 4
+b_abarkawan = castle
+b_hormuz = city
+#b_kish = temple
+
+# Misc
+culture = persian
+religion = zoroastrian
+
+# History
+790.1.1 = { religion = sunni }
+#1337.1.1 = { b_minab = castle }

@@ -1,0 +1,15 @@
+# 1613 - Bolzano
+
+#County Title
+title = c_lienz
+
+#Settlements
+max_settlements = 3
+
+b_lienz = castle
+
+# Misc
+culture = german
+religion = catholic
+
+# History

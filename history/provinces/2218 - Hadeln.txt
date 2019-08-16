@@ -1,0 +1,21 @@
+# 259 - Celle
+
+# County Title
+title = c_hadeln
+
+# Settlements
+max_settlements = 3
+b_otterndorf = tribal
+b_neuenkirchen = temple
+
+# Misc
+culture = old_saxon
+religion = norse_pagan
+
+# History
+790.1.1 = {
+	culture = german
+	religion = catholic
+	
+	b_otterndorf = castle
+}

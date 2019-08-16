@@ -1,0 +1,16 @@
+# 252 - Ulm
+
+# County Title
+title = c_oettingen
+
+# Settlements
+max_settlements = 4
+b_oettingen = castle
+b_nordlingen = city
+
+# Misc
+culture = german
+religion = catholic
+
+# History
+

@@ -1,0 +1,23 @@
+# 365 - Brandenburg
+
+# County Title
+title = c_ruppin
+
+# Settlements
+max_settlements = 3
+b_ruppin = tribal
+
+#b_putlitz
+#b_grabow
+# Misc
+culture = pommeranian
+religion = slavic_pagan
+
+# History
+800.1.1 = {
+	b_ruppin = castle
+	b_putlitz = city
+}
+1187.1.1 = { b_oranienburg = castle } 
+1200.1.1 = { culture = german } 
+1200.1.1 = { religion = catholic } 

@@ -1,0 +1,23 @@
+# 209 - Armagnac
+
+# County Title
+title = c_comminges
+
+# Settlements
+max_settlements = 4
+
+b_saint_gaudens = castle
+b_mirande = temple
+
+#b_castelnau = castle
+#b_eauze = temple
+#b_lisle = castle
+#b_castelnau = castle
+#b_laplume = castle
+
+#Misc
+religion = catholic
+culture = occitan
+
+# History
+#1314.1.1   = { b_condom = temple }

@@ -1,0 +1,30 @@
+# 166 - Algeciras
+
+# County Title
+title = c_algeciras
+
+# Settlements castle/city/temple
+max_settlements = 4
+
+b_algeciras = castle
+b_estepona = city
+b_tarifa = castle
+# b_jimenadelafrontera = temple
+# b_casares = castle 
+
+# Misc
+culture = visigothic
+religion = catholic
+
+# History
+761.1.1 = {
+	culture = maghreb_arabic
+	religion = sunni
+}
+1000.1.1 = {
+	culture = andalusian_arabic
+}
+1394.1.1 = {
+	culture = castillan
+	religion = catholic
+}

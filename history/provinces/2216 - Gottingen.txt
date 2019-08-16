@@ -1,0 +1,24 @@
+# 257 - Braunschweig
+
+# County Title
+title = c_gottingen
+
+# Settlements
+max_settlements = 3
+b_gottingen = tribal
+b_heiligenstadt = temple
+#b_goslar = city
+#b_gandersheim = castle
+
+# Misc
+culture = old_saxon
+religion = norse_pagan
+
+# History
+790.1.1 = {
+	culture = german
+	religion = catholic
+
+	b_gottingen = castle
+	b_goslar = city	## silver mines of Goslar
+}

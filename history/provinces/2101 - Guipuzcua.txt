@@ -1,0 +1,18 @@
+# 2101 - Guipuzcoa
+
+# County Title
+title = c_guipuzcoa
+
+# Settlements castle/city/temple
+max_settlements = 4
+b_sansebastian = castle
+b_irun = city
+b_onate = temple
+#b_oiarso = city
+#b_tolosa = city
+
+# Misc
+culture = basque
+religion = catholic
+
+# History

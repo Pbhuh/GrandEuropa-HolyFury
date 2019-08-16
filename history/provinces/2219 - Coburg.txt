@@ -1,0 +1,26 @@
+# 256 - Weimar
+
+# County Title
+title = c_coburg
+
+# Settlements
+max_settlements = 3
+b_coburg = castle
+
+#UNSURE
+
+#b_walkenried = temple
+#b_nordhausen = city
+#b_memelsen = castle
+#b_apoldoa = castle
+#b_gotha = castle
+
+
+# Misc
+culture = german
+religion = catholic
+
+# History
+
+
+

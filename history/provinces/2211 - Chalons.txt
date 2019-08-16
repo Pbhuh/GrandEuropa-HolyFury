@@ -1,0 +1,22 @@
+# 114 - Reims
+
+# County Title
+title = c_chalonschamp
+
+# Settlements
+max_settlements = 5
+
+b_chalons = castle
+
+#unsure
+#b_attigny
+#b_epernay
+#b_roucy 
+#b_dampierre
+
+culture = old_frankish
+religion = catholic
+
+# History
+790.1.1 = { culture = frankish }
+

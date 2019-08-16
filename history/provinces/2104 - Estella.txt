@@ -1,0 +1,19 @@
+# 2104 - Estella
+
+# County Title
+title = c_estella
+
+# Settlements castle/city/temple
+max_settlements = 3
+b_estella = castle
+b_viana = city
+b_irache = temple
+#b_santaolalla = castle
+#b_losarcos = city
+#b_falces = city
+
+# Misc
+culture = basque
+religion = catholic
+
+# History

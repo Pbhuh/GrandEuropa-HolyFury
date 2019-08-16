@@ -1,0 +1,39 @@
+# 2222 - Werle
+
+# County Title
+title = c_werle
+
+# Settlements
+max_settlements = 4
+b_waren = tribal
+
+#b_gustrow = city
+#b_penzlin = temple
+#b_malchin = castle
+#b_ahrensberg = castle
+
+#b_strelitz = castle
+#b_stargard = castle		#already used in c_stettin
+
+# Misc
+culture = pommeranian
+religion = slavic_pagan
+
+# History
+800.1.1 = {
+	b_waren = castle
+	b_gustrow = city
+	b_penzlin = temple
+
+	b_waren = ca_keep_1
+	b_waren = ca_militia_barracks_1
+	b_waren = ca_wall_1
+	b_waren = ca_wall_q_1
+}
+
+# Christianity only arrived with the Danish king Valdemar I
+1168.1.1 = { religion = catholic }
+1277.1.1 = { trade_post = b_bardewik }
+
+
+

@@ -1,0 +1,9 @@
+750.1.1 = {
+	name = RUGEN
+	adjective = RUGEN_ADJ
+}
+1124.1.1=
+{
+name = CISPOMERANIA
+adjective = CISPOMERANIA_ADJ
+}

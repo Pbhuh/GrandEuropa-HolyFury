@@ -1,0 +1,36 @@
+# 362 - Domazlice - South Bohemia
+
+# County Title
+title = c_domazlice
+
+# Settlements
+max_settlements = 5
+
+b_prachen = tribal
+
+#b_doudleby = city
+#b_chynov = castle
+#b_hohenfurth = temple
+#b_rosenberg = castle
+#b_budejovice = city
+#b_pisek = castle
+#b_krumlov = castle
+#b_goldenkron = temple
+
+# Misc
+
+culture = bohemian
+religion = slavic_pagan
+
+# History
+883.1.1 = { religion = catholic }
+900.1.1 = {
+	b_prachen = castle
+	#b_doudleby = city
+	#b_hohenfurth = temple
+}
+#changing structure of power
+
+#german colonists invited
+#Elvain: quoted out cultural change. Colonists were invited, but only to cities, the country remained mainly Czech/Bohemian
+#1259.1.1 = { culture = german }

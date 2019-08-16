@@ -1,0 +1,20 @@
+# 152 - Navarra
+
+# County Title
+title = c_navarra
+
+# Settlements castle/city/temple
+max_settlements = 4
+b_pamplona = castle
+b_noain = city
+b_santamariadeyarte = temple
+#b_huarte = city
+#b_monreal_spain = castle
+#b_amaiur = castle
+
+# Misc
+culture = basque
+religion = catholic
+
+# History
+1258.1.1 = { trade_post = b_embriaco }

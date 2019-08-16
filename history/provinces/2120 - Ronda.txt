@@ -1,0 +1,25 @@
+# 2120 - Ronda
+
+# County Title
+title = c_ronda
+
+# Settlements castle/city/temple
+max_settlements = 3
+
+b_ronda = castle
+b_grazalema = city
+b_zahara = castle
+# b_ubrique = castle
+
+# Misc
+culture = visigothic
+religion = catholic
+
+# History
+763.1.1 = {
+	culture = maghreb_arabic
+	religion = sunni
+}
+1000.1.1 = {
+	culture = andalusian_arabic
+}

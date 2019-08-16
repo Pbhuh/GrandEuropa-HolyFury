@@ -1,0 +1,16 @@
+# 2213 - Heidelberg
+
+# County Title
+title = c_heidelberg
+
+# Settlements
+max_settlements = 4
+b_heidelberg = castle
+b_neckargmund = city
+b_weinheim = temple
+
+# Misc
+culture = german
+religion = catholic
+
+# History

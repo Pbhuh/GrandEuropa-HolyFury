@@ -1,0 +1,18 @@
+# 2105 - Olite
+
+# County Title
+title = c_olite
+
+# Settlements castle/city/temple
+max_settlements = 3
+b_olite = castle 
+b_roncesvalles = temple
+b_tafalla = city
+#b_sanguesa = city
+#b_ujue = temple
+
+# Misc
+culture = basque
+religion = catholic
+
+# History

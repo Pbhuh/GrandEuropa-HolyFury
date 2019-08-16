@@ -1,0 +1,18 @@
+# 214 - Toulouse
+
+# County Title
+title = c_quercy
+
+# Settlements
+max_settlements = 4
+b_cahors = castle
+b_gourdon = temple
+b_montauban = city
+
+#Misc
+religion = catholic
+culture = occitan
+
+# History
+1150.1.1 = { religion = cathar }
+1244.3.16 = { religion = catholic}

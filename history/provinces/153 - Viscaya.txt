@@ -1,0 +1,19 @@
+# 153 - Viscaya
+
+# County Title
+title = c_viscaya
+
+# Settlements castle/city/temple
+max_settlements = 4
+b_pisuerga = castle
+b_castronegro = city
+b_bermeo = temple
+#b_bilbao = castle
+#b_guernica = city
+
+# Misc
+culture = basque
+religion = catholic
+
+# History
+1310.6.15 = { b_bilbao = castle }

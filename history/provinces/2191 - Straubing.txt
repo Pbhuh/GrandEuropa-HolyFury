@@ -1,0 +1,14 @@
+# 1700 - Regensburg
+
+# County title
+title = c_straubing
+
+# Settlements
+max_settlements = 4
+b_straubing = castle
+
+# Misc
+culture = german
+religion = catholic
+
+# History

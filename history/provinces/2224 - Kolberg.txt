@@ -1,0 +1,27 @@
+# 2224 - Kolberg
+
+# County Title
+title = c_colberg
+
+# Settlements
+max_settlements = 3
+b_colberg = tribal
+
+# Misc
+culture = pommeranian
+religion = slavic_pagan
+
+# History
+800.1.1 = {
+	b_colberg = temple
+	#b_belgard = castle
+
+	#b_belgard = ca_keep_1
+	#b_belgard = ca_militia_barracks_1
+	#b_belgard = ca_wall_1
+	#b_belgard = ca_wall_q_1
+	
+	b_colberg = tp_barracks_1
+}
+1180.1.1 = { religion = catholic }
+1237.1.1 = { trade_post = b_warendorp }

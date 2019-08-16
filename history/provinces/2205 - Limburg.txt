@@ -1,0 +1,22 @@
+# 91 - Loon
+
+# County Title
+title = c_limburg
+
+# Settlements
+max_settlements = 5
+
+b_limburg = castle
+b_maastricht = temple
+b_valkenburg = city
+
+#b_wassenberg = castle
+
+
+# Misc
+culture = old_frankish
+religion = catholic
+
+# History
+790.1.1 = { culture = dutch }
+
