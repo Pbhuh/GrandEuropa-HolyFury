@@ -1,7 +1,7 @@
 # 362 - Domazlice - South Bohemia
 
 # County Title
-title = c_domazlice
+title = c_prachen
 
 # Settlements
 max_settlements = 5

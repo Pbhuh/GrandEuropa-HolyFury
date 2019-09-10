@@ -17618,8 +17618,6 @@ e_wendish_empire = {
                 	suebi = "Budweis"
 					#slovieni = "Jižní Cechy"
                 
-                	b_prachen = {
-                	}
                 	b_doudleby = {
                 	}
                 	b_chynov = {
@@ -17777,6 +17775,10 @@ e_wendish_empire = {
                 	b_domazlice = {
                 	}
             	}
+				c_prachen = {
+					b_prachen = {
+                	}
+				}
 				
         }
 		d_erzgebirge = {
@@ -17844,7 +17846,6 @@ e_wendish_empire = {
 					b_boleslav = {}
 					b_nymburk = {}
 				}
-		
 		}
 		
         d_moravia = {
@@ -32614,532 +32615,19 @@ e_spain = {
 		muslim = 25 # Crusade target weight
 	}
 
-	k_seville = {
-		color={ 2 153 55 }
-		
-		capital = 182 # Seville
-		
-		castilan = "Sevilla"
-		portuguese = "Algarve"
-		visigothic = "Baetica"
-		roman = "Baetica"
-		bedouin_arabic = "Ishbiliyya"
-		maghreb_arabic = "Ishbiliyya"
-		levantine_arabic = "Ishbiliyya"
-		egyptian_arabic = "Ishbiliyya"
-		andalusian_arabic = "Ishbiliyya"
-		
-		muslim = 25 # Crusade target weight
-		
-		d_sevilla = {
-			color = { 150 218 21 }
-			color2={ 255 255 255 }
-			
-			capital = 182 # Sevilla
-			
-			castilan = "Sevilla"
-			visigothic = "Hispalis"
-			roman = "Hispalis"
-			bedouin_arabic = "Ishbiliyya"
-			maghreb_arabic = "Ishbiliyya"
-			levantine_arabic = "Ishbiliyya"
-			egyptian_arabic = "Ishbiliyya"
-			andalusian_arabic = "Ishbiliyya"
-		
-			c_sevilla = {
-				color = { 232 200 25 }
-				color2={ 255 255 255 }
-				
-				castilan = "Sevilla"
-				visigothic = "Hispalis"
-				roman = "Hispalis"
-				bedouin_arabic = "Ishbiliyya"
-				maghreb_arabic = "Ishbiliyya"
-				levantine_arabic = "Ishbiliyya"
-				egyptian_arabic = "Ishbiliyya"
-				andalusian_arabic = "Ishbiliyya"
-				
-				b_albaidadelaljerafe = {
-					bedouin_arabic = "Al-Bayda"
-					maghreb_arabic = "Al-Bayda"
-					levantine_arabic = "Al-Bayda"
-					egyptian_arabic = "Al-Bayda"
-					andalusian_arabic = "Al-Bayda"
-				}
-				b_seville = {
-					castilan = "Sevilla"
-					visigothic = "Hispalis"
-					suebi = "Hispalis"
-					roman = "Hispalis"
-					bedouin_arabic = "Ishbiliyya"
-					maghreb_arabic = "Ishbiliyya"
-					levantine_arabic = "Ishbiliyya"
-					egyptian_arabic = "Ishbiliyya"
-					andalusian_arabic = "Ishbiliyya"
-				}
-				b_sanlucarlemayor = {
-					bedouin_arabic = "Shaluqa"
-					maghreb_arabic = "Shaluqa"
-					levantine_arabic = "Shaluqa"
-					egyptian_arabic = "Shaluqa"
-					andalusian_arabic = "Shaluqa"
-				}
-				b_santiponce = {
-					roman = "Italica"
-					visigothic = "Tálica"
-					bedouin_arabic = "Talca"
-					maghreb_arabic = "Talca"
-					levantine_arabic = "Talca"
-					egyptian_arabic = "Talca"
-					andalusian_arabic = "Talca"
-				}
-				b_laalgaba = {
-					bedouin_arabic = "Al-Gaba"
-					maghreb_arabic = "Al-Gaba"
-					levantine_arabic = "Al-Gaba"
-					egyptian_arabic = "Al-Gaba"
-					andalusian_arabic = "Al-Gaba"
-				}
-				b_tomares = {
-					bedouin_arabic = "Tomar"
-					maghreb_arabic = "Tomar"
-					levantine_arabic = "Tomar"
-					egyptian_arabic = "Tomar"
-					andalusian_arabic = "Tomar"
-				}
-			}
-			c_aracena = {
-				color = { 244 212 37 }
-				color2={ 255 255 255 }
-				
-				roman = "Aretiana"
-				visigothic = "Aretiana"
-				bedouin_arabic = "Zulema"
-				maghreb_arabic = "Zulema"
-				levantine_arabic = "Zulema"
-				egyptian_arabic = "Zulema"
-				andalusian_arabic = "Zulema"
-					
-				b_galaroza = {
-					bedouin_arabic = "Al-Jaroza"
-					maghreb_arabic = "Al-Jaroza"
-					levantine_arabic = "Al-Jaroza"
-					egyptian_arabic = "Al-Jaroza"
-					andalusian_arabic = "Al-Jaroza"
-				}
-				b_aracena = {
-					roman = "Aretiana"
-					visigothic = "Aretiana"
-					bedouin_arabic = "Zulema"
-					maghreb_arabic = "Zulema"
-					levantine_arabic = "Zulema"
-					egyptian_arabic = "Zulema"
-					andalusian_arabic = "Zulema"
-				}
-				b_almonasterlareal = {
-					bedouin_arabic = "Al-Munastir"
-					maghreb_arabic = "Al-Munastir"
-					levantine_arabic = "Al-Munastir"
-					egyptian_arabic = "Al-Munastir"
-					andalusian_arabic = "Al-Munastir"
-				}
-				b_cortegana = {
-					roman = "Cortesa"
-					visigothic = "Cortesa"
-					bedouin_arabic = "Cartsana"
-					maghreb_arabic = "Cartsana"
-					levantine_arabic = "Cartsana"
-					egyptian_arabic = "Cartsana"
-					andalusian_arabic = "Cartsana"
-				}
-			}
-			c_niebla = {
-				color = { 248 216 41 }
-				color2={ 255 255 255 }
-				
-				bedouin_arabic = "Lebla"
-				maghreb_arabic = "Lebla"
-				levantine_arabic = "Lebla"
-				egyptian_arabic = "Lebla"
-				andalusian_arabic = "Lebla"	
-				roman = "Ilipla"
-				visigothic = "Elepla"
-				
-				b_niebla = {
-					bedouin_arabic = "Lebla"
-					maghreb_arabic = "Lebla"
-					levantine_arabic = "Lebla"
-					egyptian_arabic = "Lebla"
-					andalusian_arabic = "Lebla"	
-					roman = "Ilipla"
-					visigothic = "Elepla"
-				}
-				b_pilas = {
-					bedouin_arabic = "Tor"
-					maghreb_arabic = "Tor"
-					levantine_arabic = "Tor"
-					egyptian_arabic = "Tor"
-					andalusian_arabic = "Tor"
-				}
-				b_rocianadelcondado = {
-					bedouin_arabic = "Russiana"
-					maghreb_arabic = "Russiana"
-					levantine_arabic = "Russiana"
-					egyptian_arabic = "Russiana"
-					andalusian_arabic = "Russiana"
-				}
-				b_bonares = {}
-			}
-			c_huelva = {
-				color = { 205 98 5 }
-				color2={ 255 255 255 }
-
-				bedouin_arabic = "Walbah"
-				maghreb_arabic = "Walbah"
-				levantine_arabic = "Walbah"
-				egyptian_arabic = "Walbah"
-				andalusian_arabic = "Walbah"	
-				roman = "Onoba"
-				visigothic = "Onoba"
-				
-				b_gibraleon = {
-					bedouin_arabic = "Yabal Al Uyum"
-					maghreb_arabic = "Yabal Al Uyum"
-					levantine_arabic = "Yabal Al Uyum"
-					egyptian_arabic = "Yabal Al Uyum"
-					andalusian_arabic = "Yabal Al Uyum"
-				}
-				b_huelva = {
-					bedouin_arabic = "Walbah"
-					maghreb_arabic = "Walbah"
-					levantine_arabic = "Walbah"
-					egyptian_arabic = "Walbah"
-					andalusian_arabic = "Walbah"	
-					roman = "Onoba"
-					visigothic = "Onoba"
-				}
-				b_lepe = {
-					bedouin_arabic = "Labb"
-					maghreb_arabic = "Labb"
-					levantine_arabic = "Labb"
-					egyptian_arabic = "Labb"
-					andalusian_arabic = "Labb"	
-					roman = "Laepa"
-					visigothic = "Laepa"
-				}
-				b_ayamonte = {
-					bedouin_arabic = "Aiamonte"
-					maghreb_arabic = "Aiamonte"
-					levantine_arabic = "Aiamonte"
-					egyptian_arabic = "Aiamonte"
-					andalusian_arabic = "Aiamonte"
-				}
-			}
-			c_almonte = {
-				color = { 23 151 48 }
-				
-				bedouin_arabic = "Aljabal"
-				maghreb_arabic = "Aljabal"
-				levantine_arabic = "Aljabal"
-				egyptian_arabic = "Aljabal"
-				andalusian_arabic = "Aljabal"
-				
-				b_almonte = {
-					bedouin_arabic = "Aljabal"
-					maghreb_arabic = "Aljabal"
-					levantine_arabic = "Aljabal"
-					egyptian_arabic = "Aljabal"
-					andalusian_arabic = "Aljabal"
-				}
-				b_moguer = {
-					bedouin_arabic = "Mogauar"
-					maghreb_arabic = "Mogauar"
-					levantine_arabic = "Mogauar"
-					egyptian_arabic = "Mogauar"
-					andalusian_arabic = "Mogauar"	
-					roman = "Urium"
-					visigothic = "Urium"
-				}
-				b_elrocio = {}
-			}
-			c_tejada = {
-				color = { 136 228 124 }
-				
-				roman = "Ituci"
-				visigothic = "Ituci"
-				bedouin_arabic = "Talyata"
-				maghreb_arabic = "Talyata"
-				levantine_arabic = "Talyata"
-				egyptian_arabic = "Talyata"
-				andalusian_arabic = "Talyata"
-				
-				b_paternadelcampo = {
-					bedouin_arabic = "Alpízar"
-					maghreb_arabic = "Alpízar"
-					levantine_arabic = "Alpízar"
-					egyptian_arabic = "Alpízar"
-					andalusian_arabic = "Alpízar"
-				}
-				b_tejada = {
-					roman = "Ituci"
-					visigothic = "Ituci"
-					bedouin_arabic = "Talyata"
-					maghreb_arabic = "Talyata"
-					levantine_arabic = "Talyata"
-					egyptian_arabic = "Talyata"
-					andalusian_arabic = "Talyata"
-				}
-				b_aznalcollar = {
-					bedouin_arabic = "Hanz-Al-Kollar"
-					maghreb_arabic = "Hanz-Al-Kollar"
-					levantine_arabic = "Hanz-Al-Kollar"
-					egyptian_arabic = "Hanz-Al-Kollar"
-					andalusian_arabic = "Hanz-Al-Kollar"
-				}
-			}
-		}
-		d_algarve = {
-			color = { 202 88 5 }
-			color2={ 255 255 255 }
-			
-			capital = 163 # Faro
-			
-			bedouin_arabic = "Al-Gharb"
-			maghreb_arabic = "Al-Gharb"
-			levantine_arabic = "Al-Gharb"
-			egyptian_arabic = "Al-Gharb"
-			andalusian_arabic = "Al-Gharb"
-			visigothic = "Ossonoba"
-			roman = "Ossonoba"
-			
-			c_silves = {
-				color = { 192 80 15 }
-				color2={ 255 255 255 }
-				
-				roman = "Cilpes"
-				visigothic = "Cilpes"
-				bedouin_arabic = "Shlib"
-				maghreb_arabic = "Shlib"
-				levantine_arabic = "Shlib"
-				egyptian_arabic = "Shlib"
-				andalusian_arabic = "Shlib"
-				
-				b_silves = {
-					roman = "Cilpes"
-					visigothic = "Cilpes"
-					bedouin_arabic = "Shlib"
-					maghreb_arabic = "Shlib"
-					levantine_arabic = "Shlib"
-					egyptian_arabic = "Shlib"
-					andalusian_arabic = "Shlib"
-				} 
-				b_lagos = {
-					roman = "Lacobriga"
-					visigothic = "Lacobriga"
-					bedouin_arabic = "Zawaia"
-					maghreb_arabic = "Zawaia"
-					levantine_arabic = "Zawaia"
-					egyptian_arabic = "Zawaia"
-					andalusian_arabic = "Zawaia"
-				} 
-				b_portimao = {
-					roman = "Portus Hannibalis"
-					visigothic = "Portus Hannibalis"
-					bedouin_arabic = "Burj Munt"
-					maghreb_arabic = "Burj Munt"
-					levantine_arabic = "Burj Munt"
-					egyptian_arabic = "Burj Munt"
-					andalusian_arabic = "Burj Munt"
-				}
-				b_alvor = {
-					roman = "Ipses"
-					visigothic = "Vila Velha"
-					bedouin_arabic = "Albur"
-					maghreb_arabic = "Albur"
-					levantine_arabic = "Albur"
-					egyptian_arabic = "Albur"
-					andalusian_arabic = "Albur"
-				}
-				b_aljezur = {
-					roman = "Arrifana"
-					visigothic = "Arrifana"
-					bedouin_arabic = "Al-Rihana"
-					maghreb_arabic = "Al-Rihana"
-					levantine_arabic = "Al-Rihana"
-					egyptian_arabic = "Al-Rihana"
-					andalusian_arabic = "Al-Rihana"
-				}
-			}
-			c_faro = {
-				color = { 192 98 5 }
-				color2={ 255 255 255 }
-				
-				roman = "Ossonoba"
-				visigothic = "Ossonoba"
-				bedouin_arabic = "Uhshunubah"
-				maghreb_arabic = "Uhshunubah"
-				levantine_arabic = "Uhshunubah"
-				egyptian_arabic = "Uhshunubah"
-				andalusian_arabic = "Uhshunubah"
-				
-				b_albufeira = {
-					roman = "Baltum"
-					visigothic = "Baltum"
-					bedouin_arabic = "Al-Buhera"
-					maghreb_arabic = "Al-Buhera"
-					levantine_arabic = "Al-Buhera"
-					egyptian_arabic = "Al-Buhera"
-					andalusian_arabic = "Al-Buhera"
-				} 
-				b_faro = {
-					portuguese = "Santa Maria"
-					roman = "Ossonoba"
-					visigothic = "Ossonoba"
-					bedouin_arabic = "Uhshunubah"
-					maghreb_arabic = "Uhshunubah"
-					levantine_arabic = "Uhshunubah"
-					egyptian_arabic = "Uhshunubah"
-					andalusian_arabic = "Uhshunubah"
-				}
-				b_loule = {
-					portuguese = "Loulé"
-					bedouin_arabic = "Al-'Ulya"
-					maghreb_arabic = "Al-'Ulya"
-					levantine_arabic = "Al-'Ulya"
-					egyptian_arabic = "Al-'Ulya"
-					andalusian_arabic = "Al-'Ulya"
-				}
-				b_almancil = {
-					bedouin_arabic = "Almansil"
-					maghreb_arabic = "Almansil"
-					levantine_arabic = "Almansil"
-					egyptian_arabic = "Almansil"
-					andalusian_arabic = "Almansil"
-				}
-			}
-			c_tavira = {
-				color = { 193 140 80 }
-				
-				roman = "Balsa"
-				visigothic = "Balsa"
-				bedouin_arabic = "Tabira"
-				maghreb_arabic = "Tabira"
-				levantine_arabic = "Tabira"
-				egyptian_arabic = "Tabira"
-				andalusian_arabic = "Tabira"
-				
-				b_castromarim = {
-					roman = "Baesuris"
-					visigothic = "Basuris"
-					bedouin_arabic = "Burj Mariym"
-					maghreb_arabic = "Burj Mariym"
-					levantine_arabic = "Burj Mariym"
-					egyptian_arabic = "Burj Mariym"
-					andalusian_arabic = "Burj Mariym"
-				}
-				b_tavira = {
-					roman = "Balsa"
-					visigothic = "Balsa"
-					bedouin_arabic = "Tabira"
-					maghreb_arabic = "Tabira"
-					levantine_arabic = "Tabira"
-					egyptian_arabic = "Tabira"
-					andalusian_arabic = "Tabira"
-				}
-				b_alcoutim = {
-					roman = "Alcoutinium"
-					visigothic = "Alcoutinium"
-					bedouin_arabic = "Alcatâ"
-					maghreb_arabic = "Alcatâ"
-					levantine_arabic = "Alcatâ"
-					egyptian_arabic = "Alcatâ"
-					andalusian_arabic = "Alcatâ"
-				}
-			}
-		}
-		d_osuna = {
-			color={ 84 120 91 }
-			
-			c_constantina = {
-			}
-			c_carmona = {
-			}
-			c_ecija = {
-			}
-			c_utrera = {
-			}
-			c_moron = {
-			}
-		}
-		d_arcos = {
-			color={ 128 177 59 }
-			
-			c_cadiz = {
-				color = { 236 204 29 }
-				color2={ 255 255 255 }
-				
-				b_jerez = {
-				}
-				b_cadiz = {
-				}
-				b_medinasidonia = {
-				}
-				b_arcos = {
-				}
-				b_sanjosedelvalle = {
-				}
-				b_sanlucadebarrameda = {
-				}
-				b_sanfernando = {
-				}
-				b_alcaladelosgazules = {
-				}
-			}
-			c_algeciras = {
-				color = { 240 208 33 }
-				color2={ 255 255 255 }
-				
-				b_gibraltar = {
-				}
-				b_algericas = {
-				}
-				b_ronda = {
-				}
-				b_sanroque = {
-				}
-				b_tarifa = {
-				}
-				b_estepona = {
-				}
-				b_jimenadelafrontera = {
-				}
-				b_casares = {
-				}
-			}
-			c_ronda = {
-			}
-			c_jerez = {
-			}
-			c_medinasidonia = {
-			}
-		}
-	}
-
 	k_badajoz = {
 		color={ 138 243 51 }
 		color2={ 255 255 255 }
 
 		capital = 184 # Badajoz
 
-		castilan = "Badajoz"
-		portuguese = "Portugal"
 		visigothic = "Lusitania"
 		roman = "Lusitania"
-		bedouin_arabic = "Batalyaws"
-		maghreb_arabic = "Batalyaws"
-		levantine_arabic = "Batalyaws"
-		egyptian_arabic = "Batalyaws"
-		andalusian_arabic = "Batalyaws"
+		greek = "Lusitania"
+		basque = "Lusitania"
+		castillan = "Lusitania"
+		catalan = "Lusitania"
+		portuguese = "Lusitania"
 
 		muslim = 25 # Crusade target weight
 
@@ -33245,14 +32733,12 @@ e_spain = {
 				b_fuentedelmaestre = {
 				}
 			}
-			c_zafra = {}
-			c_llerena = {}
 		}
 		d_beja = {
 			color = { 182 98 5 }
 			color2={ 255 255 255 }
 			
-			capital = 2107 # Beja
+			capital = 185 # Mertola
 			
 			c_evora = {
 				color = { 182 68 5 }
@@ -33312,9 +32798,60 @@ e_spain = {
 				b_penha = {}
 				b_belver = {}
 			}
-			c_ourique = {
+		}
+		d_algarve = {
+			color = { 202 88 5 }
+			color2={ 255 255 255 }
+			
+			capital = 163 # Faro
+			
+			c_silves = {
+				color = { 192 80 15 }
+				color2={ 255 255 255 }
+				
+				bedouin_arabic = "Shlib"
+				maghreb_arabic = "Shlib"
+				levantine_arabic = "Shlib"
+				egyptian_arabic = "Shlib"
+				andalusian_arabic = "Shlib"
+				
+				b_silves = {
+					bedouin_arabic = "Shlib"
+					maghreb_arabic = "Shlib"
+					levantine_arabic = "Shlib"
+					egyptian_arabic = "Shlib"
+					andalusian_arabic = "Shlib"
+				}
+				b_lagos = {}
+				b_alvor = {}
+				b_aljezur = {}
+				b_arrifana = {}
+				b_monchique = {}
+				b_almodovar = {}
 			}
-			c_beja = {
+			c_faro = {
+				color = { 192 98 5 }
+				color2={ 255 255 255 }
+				
+				bedouin_arabic = "Uhshunubah"
+				maghreb_arabic = "Uhshunubah"
+				levantine_arabic = "Uhshunubah"
+				egyptian_arabic = "Uhshunubah"
+				andalusian_arabic = "Uhshunubah"
+				
+				b_faro = {
+					bedouin_arabic = "Harun"
+					maghreb_arabic = "Harun"
+					levantine_arabic = "Harun"
+					egyptian_arabic = "Harun"
+					andalusian_arabic = "Harun"
+				}
+				b_tavira = {}
+				b_loule = {}
+				b_castromarim = {}
+				b_alcoutim = {}
+				b_saobrasdealportel = {}
+				b_olhao = {}
 			}
 		}
 		d_balata = {
@@ -33365,18 +32902,6 @@ e_spain = {
 				b_alcochete = {}
 				b_pegoes = {}
 				b_montijo = {}
-			}
-			c_egitanea = {
-				color={ 175 105 5 }
-				color2={ 255 255 255 }
-
-				b_rodao = {}
-				b_idanha = {}
-				b_covilha = {}
-				b_castelobranco = {}
-				b_alcains = {}
-				b_penha = {}
-				b_belver = {}
 			}
 		}
 	}
@@ -34668,7 +34193,7 @@ e_spain = {
 		}
 	}
 	
-	k_andalusia = { #renamed to Cordoba
+	k_andalusia = { # Future rename to Cordoba
 		color = { 31 138 40 }
 		color2={ 255 255 255 }
 		
@@ -34791,8 +34316,6 @@ e_spain = {
 				b_andujar = {}
 				b_baeza = {}
 			}
-			c_cabra = {
-			}
 		}	
 		d_granada = {
 			color = { 40 150 40 }
@@ -34860,6 +34383,121 @@ e_spain = {
 				}
 				b_velezmalaga = {
 				}
+			}
+		}
+		d_sevilla = {
+			color = { 150 218 21 }
+			color2={ 255 255 255 }
+			
+			capital = 182 # Sevilla
+			
+			c_sevilla = {
+				color = { 232 200 25 }
+				color2={ 255 255 255 }
+				
+				b_carmona = {
+				}
+				b_sevilla = {
+				}
+				b_ecija = {
+				}
+				b_sevimoron = {
+				}
+				b_alcaladeguadaira = {
+				}
+				b_doshermanas = {
+				}
+				b_laalgaba = {
+				}
+				b_utrera = {
+				}
+			}
+			c_cadiz = {
+				color = { 236 204 29 }
+				color2={ 255 255 255 }
+				
+				b_jerez = {
+				}
+				b_cadiz = {
+				}
+				b_medinasidonia = {
+				}
+				b_arcos = {
+				}
+				b_sanjosedelvalle = {
+				}
+				b_sanlucadebarrameda = {
+				}
+				b_sanfernando = {
+				}
+				b_alcaladelosgazules = {
+				}
+			}
+			c_algeciras = {
+				color = { 240 208 33 }
+				color2={ 255 255 255 }
+				
+				b_gibraltar = {
+				}
+				b_algericas = {
+				}
+				b_ronda = {
+				}
+				b_sanroque = {
+				}
+				b_tarifa = {
+				}
+				b_estepona = {
+				}
+				b_jimenadelafrontera = {
+				}
+				b_casares = {
+				}
+			}
+			c_aracena = {
+				color = { 244 212 37 }
+				color2={ 255 255 255 }
+				
+				b_aracena = {
+				}
+				b_italica = {
+				}
+				b_almonasterlareal = {
+				}
+				b_calanas = {
+				}
+				b_cortegana = {
+				}
+				b_facanias = {
+				}
+				b_alajar = {
+				}
+				b_galaroza = {
+				}
+			}
+			c_niebla = {
+				color = { 248 216 41 }
+				color2={ 255 255 255 }
+				
+				b_niebla = {}
+				b_nerva = {}
+				b_almonte = {}
+				b_lascrocinas = {}
+				b_pilas = {}
+				b_ostilia = {}
+				b_aroche = {}
+			}
+			c_huelva = {
+				color={ 205 98 5 }
+				color2={ 255 255 255 }
+
+				b_huelva = {}
+				b_lepe = {}
+				b_ayamonte = {}
+				b_gibraleon = {}
+				b_moguer = {}
+				b_aljaraque = {}
+				b_portichuelo = {}
 			}
 		}
 		d_toledo = {

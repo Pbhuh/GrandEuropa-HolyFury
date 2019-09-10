@@ -1,9 +1,9 @@
-max_provinces = 2300
+max_provinces = 2250
 definitions = "definition.csv"
 provinces = "provincesGE-HF.bmp"
 positions = "positions.txt"
 terrain = "terrain.bmp"
-rivers = "rivershun.bmp"
+rivers = "rivers.bmp"
 terrain_definition = "terrain.txt"
 heightmap = "topology.bmp"
 tree_definition = "trees.bmp"
@@ -32,7 +32,6 @@ sea_zones = { 1891 1894 }
 sea_zones = { 1995 2000 }
 sea_zones = { 2008 2011 }
 sea_zones = { 2150 2156 }
-sea_zones = { 2257 } #Lake Balaton
 
 # Indian Seas
 sea_zones = { 1307 1317 }
