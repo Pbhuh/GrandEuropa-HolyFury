@@ -1,0 +1,26 @@
+# 2246 - Arad
+
+# County Title
+title = c_arad
+
+# Settlements
+max_settlements = 4
+
+b_arad = tribal
+
+# Misc
+culture = avar
+religion = tengri_pagan
+
+# History
+800.1.1 = {
+	b_arad = castle
+}
+895.1.1 = {
+	#remove_settlement = b_debrecen
+	b_arad = tribal
+}
+930.1.1 = { culture = hungarian }
+950.1.1 = {
+	b_arad = castle
+}

@@ -59,6 +59,7 @@ technology = {
 		d_sieradz
 		d_lower_silesia
 		d_upper_silesia
+		d_crisana
 	}
 	
 	769 = {

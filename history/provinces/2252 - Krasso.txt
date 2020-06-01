@@ -1,0 +1,27 @@
+# 2252 - Krasso
+
+# County Title
+title = c_krasso
+
+# Settlements
+max_settlements = 3
+b_somlo = tribal
+
+# Misc
+culture = avar
+religion = tengri_pagan
+
+# History
+800.1.1 = {
+	b_somlo = castle
+}
+895.1.1 = {
+	b_somlo = tribal
+}
+930.1.1 = { 
+	culture = hungarian 
+}
+950.1.1 = {
+	religion = catholic
+	b_somlo = castle
+}

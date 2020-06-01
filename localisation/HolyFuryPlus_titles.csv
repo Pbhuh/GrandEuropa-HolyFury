@@ -25,7 +25,7 @@ c_northfrisia;North Frisia;;;;;;;;;;;;;x
 c_aabenraa;Aabenraa;;;;;;;;;;;;;x
 c_ingolstadt;Ingolstadt;;;;;;;;;;;;;x
 c_straubing;Straubing;;;;;;;;;;;;;x
-c_munich;MÃ¼nchen;;;;;;;;;;;;;x
+c_munich;München;;;;;;;;;;;;;x
 c_oettingen;Oettingen;;;;;;;;;;;;;x
 c_zollern;Zollern;;;;;;;;;;;;;x
 c_urach;Urach;;;;;;;;;;;;;x
@@ -71,6 +71,10 @@ d_mecca;Mecca;;;;;;;;;;;;;x
 d_neckar;Neckar;;;;;;;;;;;;;x
 d_tabuk;Tabuk;;;;;;;;;;;;;x
 d_gothien;Gothien;;;;;;;;;;;;;x
+d_reims;Reims;;;;;;;;;;;;;x
+d_alencon;Alençon;;;;;;;;;;;;;x
+d_nemours;Nemours;;;;;;;;;;;;;x
+d_crisana;Crisana;;;;;;;;;;;;;x
 
 d_biscay;Biscay;;;;;;;;;;;;;x
 d_osuna;Osuna;;;;;;;;;;;;;x

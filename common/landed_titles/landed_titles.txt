@@ -28664,8 +28664,6 @@ e_carpathia = {
 				}
 				b_ramnicu_sarat = {
 				}
-				b_buzau = {
-				}
 				b_valeni = {
 				}
 			}
@@ -28725,7 +28723,11 @@ e_carpathia = {
 				}
 				b_fetesti = {
 				}
-			}			
+			}
+			c_buzau = {
+				b_buzau = {
+				}
+			}
 		}
 		
 		d_oltenia = {
@@ -29430,6 +29432,15 @@ e_carpathia = {
 					german = Priwitz
 				}
 			}
+			c_hont = {
+				color={ 154 55 25 }
+				color2={ 255 255 255 }
+
+				b_ipolysag = {
+					german = Eipelschlag
+				}
+			}
+			
 			c_trencin = {
 				color={ 198 29 29 }
 				color2={ 255 255 255 }
@@ -29789,9 +29800,6 @@ e_carpathia = {
 					slovieni = "Velká Bana"
 					german = Neustadt
 				}
-				b_nagykaroly = { 
-					slovieni = Carei
-				}
 				b_huszt = { 
 					slovieni = Chust
 				}
@@ -29803,6 +29811,14 @@ e_carpathia = {
 					slovieni = Rachiv
 				}
 				b_felsoviso = {
+				}
+			}
+			c_zemplen = {
+				color={ 124 23 23 }
+				color2={ 255 255 255 }
+				
+				b_zemplen = {
+					
 				}
 			}
 		}
@@ -29853,6 +29869,13 @@ e_carpathia = {
 				b_mezokovesd = {
 				}
 			}
+			c_hajdu = {
+				color={ 153 84 64 }
+				color2={ 255 255 255 }
+			
+				b_debrecen = {
+				}
+			}
 			c_pest = {
 				color={ 176 67 67 }
 				color2={ 255 255 255 }
@@ -29872,10 +29895,6 @@ e_carpathia = {
 				}
 				b_vac = {
 				}
-				b_kecskemet = {
-				}
-				b_kiskunhalas = {
-				}
 				b_szentendre = {
 				}
 				b_cegled = {
@@ -29883,6 +29902,15 @@ e_carpathia = {
 				b_abrahamtelke = {
 				}
 				b_kiskoros = {
+				}
+			}
+			c_kiskun = {
+				color={ 186 57 57 }
+				color2={ 255 255 255 }
+				
+				b_kecskemet = {
+				}
+				b_kiskunhalas = {
 				}
 			}
 			c_csanad = {
@@ -29933,8 +29961,6 @@ e_carpathia = {
 				}
 				b_haromszek = {
 				}
-				b_maros = {
-				}
 				b_kezdi = {
 				}
 				b_szekelyudvarhely = {
@@ -29944,32 +29970,6 @@ e_carpathia = {
 				b_marosvasarhely = {
 				}
 			}
-			c_bihar = {
-				color={ 241 58 58 }
-				color2={ 255 255 255 }
-				
-				romanian = Bihor
-				german = Bihar
-				bohemian = Biharsko
-				slovieni = Biharsko
-				
-				b_bihar = {
-				}
-				b_nagyvarad = {
-				}
-				b_debrecen = {
-				}
-				b_biharkeresztes = {
-				}
-				b_nagybajom = {
-				}
-				b_szalard = {
-				}
-				b_zolonta = {
-				}
-				b_elesd = {
-				}
-			}
 			c_feher = {
 				color={ 245 62 62 }
 				color2={ 255 255 255 }
@@ -29977,8 +29977,6 @@ e_carpathia = {
 				german = Unterweissenburg
 				
 				b_feher = {
-				}
-				b_arad = {
 				}
 				b_gyulafehervar = {
 					romanian = Balgrad
@@ -29994,6 +29992,79 @@ e_carpathia = {
 				b_vizakna = {
 				}
 				b_tovis = {
+				}
+			}
+			c_turda = {
+				color={ 245 62 62 }
+				color2={ 255 255 255 }
+
+				b_turda = {
+				}
+				b_cluj = {
+				}
+			}
+			
+			c_maros = {
+				color={ 245 62 62 }
+				color2={ 255 255 255 }
+				
+				b_maros = {
+				}
+			}
+			
+			c_hunyad = {
+			
+				color={ 235 92 62 }
+				color2={ 255 255 255 }
+			
+				b_deva = {
+				}
+			}
+		}
+		d_crisana = {
+			color={ 235 165 165 }
+			color2={ 255 255 255 }
+		
+			c_arad = {
+				color={ 245 82 82 }
+				color2={ 255 255 255 }
+
+				b_arad = {
+				}
+			}
+			
+			c_bihar = {
+				color={ 241 58 58 }
+				color2={ 255 255 255 }
+				
+				romanian = Bihor
+				german = Bihar
+				bohemian = Biharsko
+				slovieni = Biharsko
+				
+				b_bihar = {
+				}
+				b_nagyvarad = {
+				}
+				b_biharkeresztes = {
+				}
+				b_nagybajom = {
+				}
+				b_szalard = {
+				}
+				b_zolonta = {
+				}
+				b_elesd = {
+				}
+			}
+			c_szatmar = {
+				
+				color={ 231 68 68 }
+				color2={ 255 255 255 }
+				
+				b_nagykaroly = { 
+					slovieni = Carei
+					romanian = Carei
 				}
 			}
 		}
@@ -30033,6 +30104,14 @@ e_carpathia = {
 				b_karansebes = {
 				}
 			}
+			c_torontal = {
+				color={ 163 107 64 }
+				color2={ 255 255 255 }
+				
+				b_bechkereke = {
+				}
+				
+			}
 			c_bacs = {
 				color={ 156 130 67 }
 				color2={ 255 255 255 }
@@ -30058,6 +30137,16 @@ e_carpathia = {
 				b_pancsova = {
 				}
 				b_pardany = {
+				}
+			}
+			c_krasso = {
+				
+				color={ 126 150 67 }
+				color2={ 255 255 255 }
+			
+				b_somlo = {
+				}
+				b_rechycha = {
 				}
 			}
 		}
@@ -30236,6 +30325,32 @@ e_france = {
 				b_montenay = {
 				}
 			}
+			c_vendome = {
+				color={ 47 28 230 }
+				color2={ 255 255 255 }
+				
+				b_lavardin = {
+				}
+				b_vendome = {
+				}
+				b_romilly = {
+				}
+				b_chateaurenault = {
+				}
+				b_montoire = {
+				}
+				b_oucques = {
+				}
+				b_stavit = {
+				}
+			}
+		}
+		d_alencon = { 
+			color={ 43 24 226 }
+			color2={ 255 255 255 }
+			
+			capital = 2228 #Alencon
+			
 			c_alencon = {
 				color={ 42 40 202 }
 				color2={ 255 255 255 }
@@ -30243,6 +30358,10 @@ e_france = {
 				b_alencon = {
 				}
 				b_argentan = {
+				}
+				b_sees ={
+				}
+				b_essay = {
 				}
 			}
 			c_perche = {	#NEW
@@ -30262,25 +30381,6 @@ e_france = {
 				b_verneuil = {
 				}
 				b_longny = {
-				}
-			}
-			c_vendome = {
-				color={ 47 28 230 }
-				color2={ 255 255 255 }
-				
-				b_lavardin = {
-				}
-				b_vendome = {
-				}
-				b_romilly = {
-				}
-				b_chateaurenault = {
-				}
-				b_montoire = {
-				}
-				b_oucques = {
-				}
-				b_stavit = {
 				}
 			}
 		}
@@ -30364,6 +30464,10 @@ e_france = {
 				b_rijsel = {
 				}
 				b_dowaai = { 
+				}
+				b_roubaix = {
+				}
+				b_tourcoing = {
 				}
 			}
 		}
@@ -30633,7 +30737,7 @@ e_france = {
 			color={ 95 24 226 }
 			color2={ 255 255 255 }
 			
-			capital = 114 # Reims
+			capital = 130 #Troyes
 			
 			c_troyes = {
 				color={ 99 28 230 }
@@ -30652,31 +30756,6 @@ e_france = {
 				b_rosnay = {
 				} 
 				b_chacenay = {
-				}
-			}
-			c_reims = {
-				color={ 101 30 232 }
-				color2={ 255 255 255 }
-				
-				b_reims = {
-				}
-				b_chatillon = {
-				}
-				b_attigny = {
-				}
-				b_epernay = {
-				}
-				b_roucy = {
-				}
-				b_dampierre = {
-				}
-			}
-			c_rethel = {
-				color={ 105 125 145 }
-				color2={ 255 255 255 }
-				b_sedan = {
-				}
-				b_rethel = {
 				}
 			}
 			c_chalonschamp = {
@@ -30702,16 +30781,69 @@ e_france = {
 				b_nogent_sur_marne = {
 				}
 			}
+		}
+		d_reims = {
+			color={ 75 24 226 }
+			color2={ 255 255 255 }
+			
+			capital = 114 # Reims
+			
+			c_reims = {
+				color={ 101 30 232 }
+				color2={ 255 255 255 }
+				
+				b_reims = {
+				}
+				b_chatillon = {
+				}
+				b_attigny = {
+				}
+				b_epernay = {
+				}
+				b_roucy = {
+				}
+				b_dampierre = {
+				}
+			}
+			c_rethel = {
+				color={ 105 125 145 }
+				color2={ 255 255 255 }
+				b_sedan = {
+				}
+				b_rethel = {
+				}
+				b_stenay = {
+				}
+				b_vouziers = {
+				}
+			}
+			c_laon = {
+				color={ 95 125 145 }
+				color2={ 255 255 255 }
+				
+				b_guise = {
+				}
+				b_laon = {
+				}
+				b_vervins = {
+				}
+				b_crepy = {
+				}
+			}
+		}
+		d_nemours = {
+			color={ 55 24 226 }
+			color2={ 255 255 255 }
+			
+			capital = 2235 # Nemours
+			
 			c_sens = {
 				color={ 102 40 242 }
 				color2={ 255 255 255 }
 				
-				b_montargis = {
-				}
+				
 				b_sens = {
 				}
-				#b_nemours = {
-				#}
 				b_chateaulandon = {
 				}
 				b_nogentsurseine = {
@@ -30729,11 +30861,11 @@ e_france = {
 				
 				b_nemours = {
 				}
-			}
-			c_laon = {
-				b_guise = {
+				b_montargis = {
 				}
-				b_laon = {
+				b_chateau-landon = {
+				}
+				b_chatenoy = {
 				}
 			}
 		}
@@ -30852,8 +30984,6 @@ e_france = {
 				}
 				b_chartres = {
 				}
-				b_dreux = {
-				}
 				b_nogent = {
 				}
 				b_gallardon = {
@@ -30863,11 +30993,15 @@ e_france = {
 				b_le_coudray = {
 				}
 			}
-			c_montfort = {
+			c_dreux = {
 				color={ 98 36 238 }
 				color2={ 255 255 255 }
 				
 				b_montfort = {
+				}
+				b_dreux = {
+				}
+				b_mantes = {
 				}
 			}
 			c_senlis = {	#NEW
@@ -31274,7 +31408,7 @@ e_france = {
 			}
 		}
 		d_gothien = {
-			color={ 10 16 243 }
+			color={ 15 16 246 }
 			color2={ 255 255 255 }
 			
 			capital = 212 #Narbonne

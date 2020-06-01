@@ -1,0 +1,25 @@
+# 2253 - Maros
+
+# County Title
+title = c_maros
+
+# Settlements
+max_settlements = 3
+b_maros = tribal
+
+# Misc
+culture = avar
+religion = tengri_pagan
+
+# History
+800.1.1 = {
+	b_maros = castle
+}
+895.1.1 = {
+	b_maros = tribal
+}
+930.1.1 = { culture = hungarian }
+950.1.1 = { 
+	religion = catholic 
+	b_maros = castle
+}

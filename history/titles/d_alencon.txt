@@ -1,0 +1,11 @@
+853.1.1={ #March of Neustria
+	liege="k_france"
+	#law=succ_primogeniture
+	#law=cognatic_succession
+}
+1151.9.7={
+	liege="k_england"
+}
+1203.1.1 = {
+	liege="k_france"
+}

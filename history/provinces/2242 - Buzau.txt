@@ -1,0 +1,17 @@
+## 2242 - Buzau
+
+# County Title
+title = c_buzau
+
+# Settlements
+max_settlements = 3
+
+b_buzau = castle
+
+# Misc
+culture = bolghar
+religion = tengri_pagan
+
+# History
+892.1.1 = { culture = romanian }
+900.1.1 = { religion = orthodox }

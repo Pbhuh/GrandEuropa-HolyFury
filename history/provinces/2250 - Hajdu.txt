@@ -1,0 +1,32 @@
+# 2250 - Hadju
+
+# County Title
+title = c_hajdu
+
+# Settlements
+max_settlements = 4
+
+b_debrecen = tribal
+
+# Misc
+culture = avar
+religion = tengri_pagan
+
+# History
+800.1.1 = {
+	b_debrecen = castle
+}
+890.1.1 = { 
+	religion = catholic
+}
+895.1.1 = {
+	b_debrecen = tribal
+}
+930.1.1 = { 
+	culture = hungarian 
+	religion = tengri_pagan
+}
+950.1.1 = {
+	religion = catholic
+	b_debrecen = castle
+}

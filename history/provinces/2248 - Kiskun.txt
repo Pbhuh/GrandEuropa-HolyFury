@@ -1,0 +1,30 @@
+# 2248 - Kiskun
+
+# County Title
+title = c_kiskun
+
+# Settlements
+max_settlements = 5
+
+b_kiskunhalas = tribal
+
+# Misc
+culture = avar
+religion = tengri_pagan
+
+# History
+800.1.1 = {
+	b_kiskunhalas = castle
+	b_kecskemet = city
+}
+895.1.1 = {
+	remove_settlement = b_kecskemet
+	b_kiskunhalas = tribal
+}
+930.1.1 = { culture = hungarian }
+950.1.1 = { 
+	religion = catholic 
+	b_kiskunhalas = castle
+	b_kecskemet = city
+}
+

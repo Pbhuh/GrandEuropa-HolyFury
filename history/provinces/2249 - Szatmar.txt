@@ -1,0 +1,26 @@
+# 2249 - Szatmar
+
+# County Title
+title = c_szatmar
+
+# Settlements
+max_settlements = 4
+
+b_nagykaroly = tribal
+
+# Misc
+culture = avar
+religion = tengri_pagan
+
+# History
+800.1.1 = {
+	b_nagykaroly = castle
+}
+895.1.1 = {
+	b_nagykaroly = tribal
+}
+930.1.1 = { culture = hungarian }
+950.1.1 = {
+	religion = catholic
+	b_nagykaroly = castle
+}

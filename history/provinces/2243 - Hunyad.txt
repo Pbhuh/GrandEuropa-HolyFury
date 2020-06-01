@@ -1,0 +1,26 @@
+# 2243 - Hunyad
+
+# County Title
+title = c_hunyad
+
+# Settlements
+max_settlements = 4
+
+b_deva = tribal
+
+# Misc
+culture = avar
+religion = tengri_pagan
+
+# History
+800.1.1 = {
+	b_deva = castle
+}
+892.1.1 = { culture = romanian }
+895.1.1 = {
+	b_deva = tribal
+}
+900.1.1 = { religion = orthodox }
+950.1.1 = {
+	b_deva = castle
+}

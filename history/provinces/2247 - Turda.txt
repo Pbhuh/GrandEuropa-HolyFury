@@ -1,0 +1,26 @@
+# 2247 - Turda
+
+# County Title
+title = c_turda
+
+# Settlements
+max_settlements = 4
+
+b_turda = tribal
+
+# Misc
+culture = avar
+religion = tengri_pagan
+
+# History
+800.1.1 = {
+	b_turda = castle
+}
+892.1.1 = { culture = romanian }
+895.1.1 = {
+	b_turda = tribal
+}
+900.1.1 = { religion = orthodox }
+950.1.1 = {
+	b_turda = castle
+}
