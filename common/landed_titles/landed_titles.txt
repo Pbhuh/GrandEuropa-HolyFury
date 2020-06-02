@@ -127,6 +127,50 @@ e_bulgaria = {
 	}
 }
 
+e_belgica = {
+	color={ 245 100 20 }
+	color2={ 220 220 20 }
+	
+	culture = dutch
+	
+	#capital = 
+
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				e_belgica = {
+					is_titular = yes 
+				}
+			}
+			e_belgica = {
+				is_titular = no
+			}
+		}
+	}
+}
+
+k_belgica = {
+	color={ 245 100 20 }
+	color2={ 220 220 20 }
+	
+	culture = dutch
+	
+	#capital =
+	
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				k_belgica = {
+					is_titular = yes 
+				}
+			}
+			k_belgica = {
+				is_titular = no
+			}
+		}
+	}
+}
+
 k_papal_state = {
 	color={ 255 249 198 }
 	color2={ 220 220 0 }
@@ -4294,6 +4338,9 @@ e_germany = {
 				
 				b_otterndorf = { }
 				b_neuenkirchen = { }
+				b_cuxhaven = { }
+				b_wanna = { }
+				b_wingst = { }
 			}
 			c_verden = {
 				color={ 170 192 192 }
@@ -4383,6 +4430,10 @@ e_germany = {
 				}
 				b_waldeck = {
 				}
+				b_brilon = {
+				}
+				b_meschede = { 
+				}
 			}
 			c_mark = {
 				color={ 210 210 210 }
@@ -4396,6 +4447,9 @@ e_germany = {
 				}
 				b_altena = {
 				}
+				b_menden = { }
+				b_iserlohn = { }
+				b_unna = { }
 				#b_soest = {}
 			}
 		}
@@ -4435,6 +4489,8 @@ e_germany = {
 				}
 				b_meppen = {
 				}
+				b_nordhorn = { }
+				b_wietmarschen = { }
 			}
 			c_oldenburg = {
 				color={ 214 214 214 }
@@ -4803,6 +4859,8 @@ e_germany = {
 				b_coevorden = {}
 				b_assen = {}
 				b_pithelo = {}
+				b_hoogeveen = { }
+				b_emmen = { }
 			}
 			c_ostfriesland = {
 				color={ 190 90 10 }
@@ -4969,6 +5027,10 @@ e_germany = {
 				}
 				b_maubeuge = {
 				}
+				b_louviere = {
+				}
+				b_manage = {
+				}
 			}
 		}
 		d_upper_lorraine = {
@@ -5000,6 +5062,14 @@ e_germany = {
 				b_epinal = {
 				}
 				b_luneville = {
+				}
+				b_golbey = {
+				}
+				b_hennezel = {
+				}
+				b_charmes = {
+				}
+				b_vittel = {
 				}
 			}
 			c_saintois = {
@@ -5418,6 +5488,12 @@ e_germany = {
 
 				b_straubing = {
 				}
+				b_braunau = { 
+				}
+				b_burghausen = {
+				}
+				b_scharding = {
+				}
 			}
 			c_niederbayern = {
 				color={ 60 60 60 }
@@ -5448,6 +5524,12 @@ e_germany = {
 				b_ingolstadt = {
 				}
 				b_donauworth = {
+				}
+				b_manching = { 
+				}
+				b_mainburg = {
+				}
+				b_neuburg = {
 				}
 			}
 			c_oberbayern = {
@@ -5481,6 +5563,11 @@ e_germany = {
 				}
 				b_dachau = {
 				}
+				b_landsberg = {
+				}
+				b_weilheim = {
+				}
+				b_tolz = { }
 			}
 		}
 		
@@ -6078,6 +6165,9 @@ e_germany = {
 				b_lienz = {}
 				b_lavant = { }
 				b_virgen = { }
+				b_gaimberg = { }
+				b_matrei = { }
+				b_kals = { }
 			}
 		}
 	}
@@ -6221,6 +6311,12 @@ e_germany = {
 				}
 				b_eisfeld = {
 				}
+				b_rudolstadt = { 
+				}
+				b_ilmenau = {
+				}
+				b_saalfeld = {
+				}
 			}
 				
 		}
@@ -6315,6 +6411,7 @@ e_germany = {
 				b_ansbach = { }
 				b_rothenburg_franken = { }
 				b_windsheim = { }
+				b_erlangen = { }
 				#b_ansbach2 = { }
 				#b_ansbach3 = { }
 				#b_ansbach4 = { }
@@ -6380,6 +6477,9 @@ e_germany = {
 
 				b_katzenelnbogen = {}
 				b_darmstadt = {}
+				b_pfungstadt = { } 
+				b_weiterstadt = { } 
+				b_dieburg = { }
 			}
 			c_speyergau = {
 				b_speyer = {
@@ -6388,6 +6488,8 @@ e_germany = {
 				}
 				b_landau_pfalz = {
 				}
+				b_hockenheim = { }
+				b_waghausel = { }
 			}
 		}
 		d_baden = { 
@@ -6712,6 +6814,9 @@ e_germany = {
 				}
 				b_rottweil = {
 				}
+				b_zwiefalten = {
+				}
+				b_balingen = { }
 			}
 			c_wurttemberg = {
 				color={ 72 72 72 }
@@ -6741,6 +6846,10 @@ e_germany = {
 				b_reutlingen = {
 				}
 				b_urach = {
+				}
+				b_gomadingen = { 
+				}
+				b_munsingen = { 
 				}
 			}
 		}
@@ -9437,59 +9546,6 @@ e_byzantium = {
 				b_virovitica = {
 				}
 			}
-			c_zagreb = {
-				color={ 189 141 141 }
-				color2={ 255 255 255 }
-
-				roman = "Andautonia"
-				greek = "Andautonia"
-				dalmatian = "Andautonia"
-	
-				b_zagreb = {
-				}
-				b_sisak = {
-				}
-				b_karlovac = {
-				}
-				b_cetin = {
-				}
-				b_zrin = {
-				}
-				b_dreznik = {
-				}
-				b_stenicnjak = {
-				} 
-				b_ozalj = {
-				}
-			}
-			c_varadzin = {
-				color={ 191 143 143 }
-				color2={ 255 255 255 }
-	
-				b_varazdin = {
-				}
-				b_cakovec = {
-				}
-				b_ludbreg = {
-				}
-				b_lepoglava = {
-				}
-				b_toplice = {
-				}
-				b_krapina = {
-				}
-				b_donjastubica = {
-				}
-				b_oroslavje = {
-				}
-			}
-		}
-		d_syrmia = {
-			color={ 170 140 115 }
-			color2={ 255 255 255 }
-
-			capital = 1968 # Syrmia
-
 			c_syrmia = {
 				color={ 174 144 119 }
 				color2={ 255 255 255 }
@@ -9514,6 +9570,13 @@ e_byzantium = {
 				b_cornacum = {}
 				b_cibalae = {}
 			}
+		}
+		d_syrmia = {
+			color={ 170 140 115 }
+			color2={ 255 255 255 }
+
+			capital = 1968 # Syrmia
+
 		}
 		d_bosnia = {
 			color={ 194 115 115 }
@@ -9591,18 +9654,6 @@ e_byzantium = {
 				b_usice = {}
 				b_maglaj = {}
 			}
-			c_bilino_polje = {
-				color={ 199 113 113 }
-				color2={ 255 255 255 }
-
-				b_visoki = {}
-				b_vrhbosna = {}
-				b_konjic = {}
-				b_prozor = {}
-				b_gorazde = {}
-				b_visegrad = {}
-				b_kresevo = {}
-			}
 		}
 		d_croatia = {
 			color={ 162 53 53 }
@@ -9613,7 +9664,135 @@ e_byzantium = {
 			roman = "Liburnia"
 			dalmatian = "Liburnia"
 			greek = "Liburnia"
+			
+			
+			c_varadzin = {
+				color={ 191 143 143 }
+				color2={ 255 255 255 }
 	
+				b_varazdin = {
+				}
+				b_cakovec = {
+				}
+				b_ludbreg = {
+				}
+				b_lepoglava = {
+				}
+				b_toplice = {
+				}
+				b_krapina = {
+				}
+				b_donjastubica = {
+				}
+				b_oroslavje = {
+				}
+			}
+			c_zagreb = {
+				color={ 189 141 141 }
+				color2={ 255 255 255 }
+
+				roman = "Andautonia"
+				greek = "Andautonia"
+				dalmatian = "Andautonia"
+	
+				b_zagreb = {
+				}
+				b_sisak = {
+				}
+				b_karlovac = {
+				}
+				b_cetin = {
+				}
+				b_zrin = {
+				}
+				b_dreznik = {
+				}
+				b_stenicnjak = {
+				} 
+				b_ozalj = {
+				}
+			}
+			
+			c_veglia = {
+				color={ 174 65 65 }
+				color2={ 255 255 255 }
+				
+				greek = "Kyrikon"
+				roman = "Kyrikon"
+				dalmatian = "Kyrikon"
+				german = "Vegl"
+				dalmatian = "Vicla"
+	
+				b_veglia = {
+					greek = "Kyrikon"
+					roman = "Kyrikon"
+					dalmatian = "Kyrikon"
+					german = "Vegl"
+				}
+				b_krk = {
+				}
+				b_kraljevica = {
+				}
+				b_frankopan = {
+				}
+				b_bakar = {
+				}
+				b_crikvenica = {
+				}
+				b_cres = {
+					dalmatian = "Crepsa"
+				}
+				b_vrbovsko = {
+				}
+			}
+		}
+		d_dalmatia = {
+			color={ 184 137 137 }
+			color2={ 255 255 255 }
+			
+			capital = 466 # Zachlumia
+			
+			dalmatian = "Dalmatia"
+	
+			
+			c_split = {
+				color={ 186 139 139 }
+				color2={ 255 255 255 }
+				
+				italian = "Spalato"
+				greek = "Spalathos"
+				dalmatian = "Spalato"
+				roman = "Spalato"
+	
+				b_split = {
+					italian = "Spalato"
+					roman = "Spalato"
+					dalmatian = "Spalato"
+					greek = "Spalathos"
+				}
+				b_hvar = {
+				}
+				b_trogir = {
+					greek = "Tragyrion"
+					roman = "Tragyrion"
+					italian = "Trau"
+					hungarian = "Trau"
+					dalmatian = "Tragur"
+				}
+				b_solin = {
+				}
+				b_klis = {
+				}
+				b_makarska = {
+					italian = "Macarsca"
+					greek = "Muccurum"
+					roman = "Muccurum"
+					dalmatian = "Muccurum"
+				}
+				b_sinj = {
+				}
+			}
+			
 			c_zadar = {
 				color={ 188 141 141 }
 				color2={ 255 255 255 }
@@ -9678,84 +9857,12 @@ e_byzantium = {
 				b_otocac = {
 				}
 			}
-			c_veglia = {
-				color={ 174 65 65 }
-				color2={ 255 255 255 }
-				
-				greek = "Kyrikon"
-				roman = "Kyrikon"
-				dalmatian = "Kyrikon"
-				german = "Vegl"
-				dalmatian = "Vicla"
-	
-				b_veglia = {
-					greek = "Kyrikon"
-					roman = "Kyrikon"
-					dalmatian = "Kyrikon"
-					german = "Vegl"
-				}
-				b_krk = {
-				}
-				b_kraljevica = {
-				}
-				b_frankopan = {
-				}
-				b_bakar = {
-				}
-				b_crikvenica = {
-				}
-				b_cres = {
-					dalmatian = "Crepsa"
-				}
-				b_vrbovsko = {
-				}
-			}
-			c_split = {
-				color={ 186 139 139 }
-				color2={ 255 255 255 }
-				
-				italian = "Spalato"
-				greek = "Spalathos"
-				dalmatian = "Spalato"
-				roman = "Spalato"
-	
-				b_split = {
-					italian = "Spalato"
-					roman = "Spalato"
-					dalmatian = "Spalato"
-					greek = "Spalathos"
-				}
-				b_hvar = {
-				}
-				b_trogir = {
-					greek = "Tragyrion"
-					roman = "Tragyrion"
-					italian = "Trau"
-					hungarian = "Trau"
-					dalmatian = "Tragur"
-				}
-				b_solin = {
-				}
-				b_klis = {
-				}
-				b_makarska = {
-					italian = "Macarsca"
-					greek = "Muccurum"
-					roman = "Muccurum"
-					dalmatian = "Muccurum"
-				}
-				b_sinj = {
-				}
-			}
+			
 		}
-		d_dalmatia = {
-			color={ 184 137 137 }
+		d_hum = { 
+			color={ 204 147 137 }
 			color2={ 255 255 255 }
 			
-			capital = 466 # Zachlumia
-			
-			dalmatian = "Dalmatia"
-	
 			c_imotski = {
 				color={ 170 80 100 }
 				color2={ 255 255 255 }
@@ -9813,6 +9920,18 @@ e_byzantium = {
 				}
 				b_zavala = {
 				}
+			}
+			c_bilino_polje = {
+				color={ 199 113 113 }
+				color2={ 255 255 255 }
+
+				b_visoki = {}
+				b_vrhbosna = {}
+				b_konjic = {}
+				b_prozor = {}
+				b_gorazde = {}
+				b_visegrad = {}
+				b_kresevo = {}
 			}
 		}
 	}
@@ -29206,22 +29325,6 @@ e_carpathia = {
 					german = Bonnhard
 				}
 			}
-		}
-		d_esztergom = {
-			color={ 230 55 55 }
-			color2={ 255 255 255 }
-			
-			capital = 444 # Esztergom
-
-			german = Gran
-			bohemian = Ostrihom
-			slovieni = Ostrihom
-			hungarian = Esztergom
-			croatian = Ostrogon
-			bosnian = Ostrogon
-			carantanian = Ostrogon
-			polish = Ostrzyhom
-			
 			c_sopron = {
 				color={ 211 63 63 }
 				color2={ 255 255 255 }
@@ -29265,107 +29368,22 @@ e_carpathia = {
 					croatian = Materštof
 				}
 			}
-			c_esztergom = {
-				color={ 214 66 66 }
-				color2={ 255 255 255 }
-				
-				german = Gran
-				bohemian = Ostrihom
-				slovieni = Ostrihom
-				hungarian = Esztergom
-				croatian = Ostrogon
-				bosnian = Ostrogon
-				carantanian = Ostrogon
-				polish = Ostrzyhom
-				
-				b_esztergom = { 
-					german = Gran
-					bohemian = Ostrihom
-					slovieni = Ostrihom
-					hungarian = Esztergom
-					croatian = Ostrogon
-					bosnian = Ostrogon
-					carantanian = Ostrogon
-					polish = Ostrzyhom
-				}
-				b_komarom = { 
-					slovieni = Komárno
-					bohemian = Komárno
-					hungarian = Komárom
-					german = Komorn
-				}
-				b_kakath = { 
-					slovieni = Kokot
-					bohemian = Kokot
-				}
-				b_tatabanya = {
-					german = Totiserkolonie
-				}
-				b_nagyigmand = {
-				}
-				b_nemesocsa = { 
-					slovieni = "Zemianska Olca"
-					bohemian = "Zemianska Olca"
-				}
-				b_ogylla = { 
-					slovieni = "Stará Dala"
-					bohemian = "Stará Dala"
-					german = Altdala
-					hungarian = Ogyalla
-				}
-			}
-			c_pressburg = {
-				color={ 217 69 69 }
-				color2={ 255 255 255 }
+		}
+		d_esztergom = {
+			color={ 230 55 55 }
+			color2={ 255 255 255 }
+			
+			capital = 444 # Esztergom
 
-				german = Pressburg
-				hungarian = Pozsony
-				bohemian = Prešpurk
-				slovieni = Prešporok
-				
-				b_pressburg = { 
-					german = Pressburg
-					hungarian = Pozsony
-					bohemian = Prešpurk
-					slovieni = Prešporok
-				}
-				b_nagyszombat = { 
-					slovieni = Trnava
-					bohemian = Trnava
-					german = Tyrnau
-				}
-				b_bazin = { 
-					slovieni = Devín
-					bohemian = Devin
-					hungarian = Dévény
-					german = Theben
-				}
-				b_modor = { 
-					slovieni = Modra
-					bohemian = Modra
-					german = Modern
-				}
-				b_szentgyorgy = { 
-					slovieni = "Svatý Jur"
-					bohemian = "Svatý Jur"
-					german = "Sankt Georgen"
-				}
-				b_dunaszerdahely = { 
-					slovieni = "Dunajská Streda"
-					bohemian = "Dunajská Streda"
-					german = Niedermarkt
-				}
-				b_galanta = { 
-					slovieni = Galanta
-					bohemian = Galanta
-					german = Gallandau
-				}
-				b_somorja = { 
-					slovieni = Šamorín
-					bohemian = Šamorín
-					german = Sommerein
-				}
-			}
+			german = Gran
+			bohemian = Ostrihom
+			slovieni = Ostrihom
+			hungarian = Esztergom
+			croatian = Ostrogon
+			bosnian = Ostrogon
+			carantanian = Ostrogon
+			polish = Ostrzyhom
+			
 		}
 		d_nyitra = {
 			color={ 190 21 21 }
@@ -29498,60 +29516,6 @@ e_carpathia = {
 					german = Puchau
 				}
 			}
-			c_gemer = {
-				color={ 202 33 33 }
-				color2={ 255 255 255 }
-				
-				german = Gemer
-				bohemian = Gemer
-				slovieni = Gemer
-				hungarian = Gömör
-				polish = Gemer
-				
-				b_gomor = { 
-					german = Gemer
-					bohemian = Gemer
-					slovieni = Gemer
-					hungarian = Gömör
-					polish = Gemer
-				}
-				b_losonc = { 
-					slovieni = Lucenec
-					bohemian = Lucenec
-					german = Lizenz
-				}
-				b_dobsina = { 
-					slovieni = Dobšiná
-					bohemian = Dobšiná
-					german = Dobschau
-				}
-				b_rozsnyo = { 
-					slovieni = Rožnava
-					bohemian = Rožnava
-					german = Rosenau
-				}
-				b_balassagyarmat = { 
-					slovieni = "Balážske Darmoty"
-					bohemian = "Balážske Darmoty"
-					german = Jahrmarkt
-				}
-				b_jolsva = { 
-					slovieni = Jelšava
-					bohemian = Jelšava
-					german = Eltsch
-				}
-				b_nagyroce = { 
-					slovieni = "Velká Revúca"
-					bohemian = "Velká Revúca"
-					german = Grossrauschenbach
-				}
-				b_nyustya = { 
-					slovieni = Zvolen
-					bohemian = Zvolen
-					hungarian = Zólyom
-					german =  Altsohl
-				}
-			}
 			c_orava = {
 				color={ 205 36 36 }
 				color2={ 255 255 255 }
@@ -29616,8 +29580,109 @@ e_carpathia = {
 					polish = Ruzomberk
 				}
 			}
+			c_esztergom = {
+				color={ 214 66 66 }
+				color2={ 255 255 255 }
+				
+				german = Gran
+				bohemian = Ostrihom
+				slovieni = Ostrihom
+				hungarian = Esztergom
+				croatian = Ostrogon
+				bosnian = Ostrogon
+				carantanian = Ostrogon
+				polish = Ostrzyhom
+				
+				b_esztergom = { 
+					german = Gran
+					bohemian = Ostrihom
+					slovieni = Ostrihom
+					hungarian = Esztergom
+					croatian = Ostrogon
+					bosnian = Ostrogon
+					carantanian = Ostrogon
+					polish = Ostrzyhom
+				}
+				b_komarom = { 
+					slovieni = Komárno
+					bohemian = Komárno
+					hungarian = Komárom
+					german = Komorn
+				}
+				b_kakath = { 
+					slovieni = Kokot
+					bohemian = Kokot
+				}
+				b_tatabanya = {
+					german = Totiserkolonie
+				}
+				b_nagyigmand = {
+				}
+				b_nemesocsa = { 
+					slovieni = "Zemianska Olca"
+					bohemian = "Zemianska Olca"
+				}
+				b_ogylla = { 
+					slovieni = "Stará Dala"
+					bohemian = "Stará Dala"
+					german = Altdala
+					hungarian = Ogyalla
+				}
+			}
+			c_pressburg = {
+				color={ 217 69 69 }
+				color2={ 255 255 255 }
+
+				german = Pressburg
+				hungarian = Pozsony
+				bohemian = Prešpurk
+				slovieni = Prešporok
+				
+				b_pressburg = { 
+					german = Pressburg
+					hungarian = Pozsony
+					bohemian = Prešpurk
+					slovieni = Prešporok
+				}
+				b_nagyszombat = { 
+					slovieni = Trnava
+					bohemian = Trnava
+					german = Tyrnau
+				}
+				b_bazin = { 
+					slovieni = Devín
+					bohemian = Devin
+					hungarian = Dévény
+					german = Theben
+				}
+				b_modor = { 
+					slovieni = Modra
+					bohemian = Modra
+					german = Modern
+				}
+				b_szentgyorgy = { 
+					slovieni = "Svatý Jur"
+					bohemian = "Svatý Jur"
+					german = "Sankt Georgen"
+				}
+				b_dunaszerdahely = { 
+					slovieni = "Dunajská Streda"
+					bohemian = "Dunajská Streda"
+					german = Niedermarkt
+				}
+				b_galanta = { 
+					slovieni = Galanta
+					bohemian = Galanta
+					german = Gallandau
+				}
+				b_somorja = { 
+					slovieni = Šamorín
+					bohemian = Šamorín
+					german = Sommerein
+				}
+			}
 		}
-		d_ungvar = {
+		d_felvidek = {
 			color={ 156 15 15 }
 			color2={ 255 255 255 }
 			
@@ -29690,45 +29755,6 @@ e_carpathia = {
 					hungarian = Lemes
 				}
 			}
-			c_bereg = {
-				color={ 160 19 19 }
-				color2={ 255 255 255 }
-
-				german = Berg
-				bohemian = Berehovo
-				slovieni = Berehovo
-				hungarian = Bereg
-				
-				b_beregszasz = { 
-					german = Berg
-					bohemian = Berehovo
-					slovieni = Berehovo
-					hungarian = Bereg
-				}
-				b_perecseny = { 
-					slovieni = Perecín
-				}
-				b_munkacs = { 
-					slovieni = Mukacevo
-					german = Munkatsch
-				}
-				b_ungvar = { 
-					slovieni = Užhorod
-					german = Ungwar
-				}
-				b_ilosva = { 
-					slovieni = Iršava
-				}
-				b_szolyva = { 
-					slovieni = Svalava
-				}
-				b_szobranc = { 
-					slovieni = Sobrance
-				}
-				b_kapos = { 
-					slovieni = Kapoš
-				}
-			}
 			c_abauj = {
 				color={ 162 21 21 }
 				color2={ 255 255 255 }
@@ -29781,6 +29807,113 @@ e_carpathia = {
 				b_tokaj = { 
 					slovieni = Tokaj
 					bohemian = Tokaj
+				}
+			}
+			c_gemer = {
+				color={ 202 33 33 }
+				color2={ 255 255 255 }
+				
+				german = Gemer
+				bohemian = Gemer
+				slovieni = Gemer
+				hungarian = Gömör
+				polish = Gemer
+				
+				b_gomor = { 
+					german = Gemer
+					bohemian = Gemer
+					slovieni = Gemer
+					hungarian = Gömör
+					polish = Gemer
+				}
+				b_losonc = { 
+					slovieni = Lucenec
+					bohemian = Lucenec
+					german = Lizenz
+				}
+				b_dobsina = { 
+					slovieni = Dobšiná
+					bohemian = Dobšiná
+					german = Dobschau
+				}
+				b_rozsnyo = { 
+					slovieni = Rožnava
+					bohemian = Rožnava
+					german = Rosenau
+				}
+				b_balassagyarmat = { 
+					slovieni = "Balážske Darmoty"
+					bohemian = "Balážske Darmoty"
+					german = Jahrmarkt
+				}
+				b_jolsva = { 
+					slovieni = Jelšava
+					bohemian = Jelšava
+					german = Eltsch
+				}
+				b_nagyroce = { 
+					slovieni = "Velká Revúca"
+					bohemian = "Velká Revúca"
+					german = Grossrauschenbach
+				}
+				b_nyustya = { 
+					slovieni = Zvolen
+					bohemian = Zvolen
+					hungarian = Zólyom
+					german =  Altsohl
+				}
+			}
+		}
+		d_ungvar = {
+			color={ 156 15 15 }
+			color2={ 255 255 255 }
+			
+			capital = 538 # Abauj
+			
+			croatian = Užgorod
+			german = Ungwar
+			bohemian = Užhorod
+			slovieni = Užhorod
+			hungarian = Ungvár
+			polish = Uzhorod
+			
+			c_bereg = {
+				color={ 160 19 19 }
+				color2={ 255 255 255 }
+
+				german = Berg
+				bohemian = Berehovo
+				slovieni = Berehovo
+				hungarian = Bereg
+				
+				b_beregszasz = { 
+					german = Berg
+					bohemian = Berehovo
+					slovieni = Berehovo
+					hungarian = Bereg
+				}
+				b_perecseny = { 
+					slovieni = Perecín
+				}
+				b_munkacs = { 
+					slovieni = Mukacevo
+					german = Munkatsch
+				}
+				b_ungvar = { 
+					slovieni = Užhorod
+					german = Ungwar
+				}
+				b_ilosva = { 
+					slovieni = Iršava
+				}
+				b_szolyva = { 
+					slovieni = Svalava
+				}
+				b_szobranc = { 
+					slovieni = Sobrance
+				}
+				b_kapos = { 
+					slovieni = Kapoš
 				}
 			}
 			c_marmaros = {
@@ -30346,7 +30479,7 @@ e_france = {
 			}
 		}
 		d_alencon = { 
-			color={ 43 24 226 }
+			color={ 83 14 226 }
 			color2={ 255 255 255 }
 			
 			capital = 2228 #Alencon
@@ -30359,9 +30492,13 @@ e_france = {
 				}
 				b_argentan = {
 				}
-				b_sees ={
+				b_sees = {
 				}
 				b_essay = {
+				}
+				b_flers = {
+				}
+				b_gace = {
 				}
 			}
 			c_perche = {	#NEW
@@ -30391,9 +30528,7 @@ e_france = {
 			capital = 78
 			
 			culture = dutch
-			
-			
-			
+						
 			c_yperen = {
 				color={ 194 115 40 }
 				color2={ 255 255 255 }
@@ -30468,6 +30603,10 @@ e_france = {
 				b_roubaix = {
 				}
 				b_tourcoing = {
+				}
+				b_mouscron = {
+				}
+				b_villeneuve = {
 				}
 			}
 		}
@@ -30565,6 +30704,10 @@ e_france = {
 				b_sees = {
 				}
 				b_honfleur = {
+				}
+				b_brionne = {
+				}
+				b_bernay = {
 				}
 			}
 			c_avranches = {
@@ -30759,7 +30902,18 @@ e_france = {
 				}
 			}
 			c_chalonschamp = {
+				color={ 129 38 230 }
+				color2={ 255 255 255 }
+				
 				b_chalons = {
+				}
+				b_vitry = {
+				}
+				b_sarry = {
+				}
+				b_valmy = {
+				}
+				b_sommesous = {
 				}
 			}
 			c_brie = {	#NEW
@@ -30816,6 +30970,10 @@ e_france = {
 				}
 				b_vouziers = {
 				}
+				b_sedan = {
+				}
+				b_sauville = {
+				}
 			}
 			c_laon = {
 				color={ 95 125 145 }
@@ -30828,6 +30986,12 @@ e_france = {
 				b_vervins = {
 				}
 				b_crepy = {
+				}
+				b_hirson = {
+				}
+				b_chambry = {
+				}
+				b_sissonne = {
 				}
 			}
 		}
@@ -30866,6 +31030,32 @@ e_france = {
 				b_chateau-landon = {
 				}
 				b_chatenoy = {
+				}
+				b_courtenay = {
+				}
+				b_dordives = {
+				}
+			}
+			
+			c_auxerre = {
+				color={ 97 26 228 }
+				color2={ 255 255 255 }
+				
+				b_auxerre = {
+				}
+				b_druyes = {
+				}
+				b_tonnerre = {
+				}
+				b_pontigny = {
+				}
+				b_cravant = {
+				}
+				b_crisenon = {
+				}
+				b_stsauveurenpuisaye = {
+				}
+				b_mailly = {
 				}
 			}
 		}
@@ -31003,6 +31193,10 @@ e_france = {
 				}
 				b_mantes = {
 				}
+				b_anet = {
+				}
+				b_houdan = {
+				}
 			}
 			c_senlis = {	#NEW
 				color={ 68 164 235 }
@@ -31029,6 +31223,82 @@ e_france = {
 			color={ 153 67 108 }
 			color2={ 255 255 255 }
 			capital = 136 # Dijon
+			
+			c_dijon = {
+				color={ 30 168 232 }
+				color2={ 255 255 255 }
+				
+				#b_semur = {
+				#}
+				b_dijon = {
+				}
+				#b_autun = {
+				#}
+				b_vezelay = {
+				}
+				b_avallon = {
+				}
+				b_citeaux = {
+				}
+				b_beaune = {
+				}
+				b_noyers = {
+				}
+			}
+			c_autun = {
+				color={ 30 168 232 }
+				color2={ 255 255 255 }
+				
+				b_autun = {
+				}
+				b_anost = {
+				}
+				b_sommant = {
+				}
+				b_etang = {
+				}
+				b_sully = {
+				}
+			}
+			c_semur = {
+				color={ 30 168 232 }
+				color2={ 255 255 255 }
+				
+				b_semur = {
+				}
+				b_montbard = {
+				}
+				b_venarey = {
+				}
+				b_chattilon = {
+				}
+				b_courban = {
+				}
+			}
+			c_nevers = {
+				color={ 33 171 235 }
+				color2={ 255 255 255 }
+				
+				b_courtenay = {
+				}
+				b_nevers = {
+				}
+				b_lacharite = {
+				}
+				b_donzy = {
+				}
+				b_chateauchinon = {
+				}
+				b_vandenesse = {
+				}
+				b_clamecy = {
+				}
+			}
+		}
+		d_charolais = {
+			color={ 183 67 108 }
+			color2={ 255 255 255 }
+			capital = 226 # Charolais
 			
 			c_chalons = {
 				color={ 161 22 60 }
@@ -31080,41 +31350,7 @@ e_france = {
 				b_villefranchesursaone = {
 				}
 			}
-			c_dijon = {
-				color={ 30 168 232 }
-				color2={ 255 255 255 }
-				
-				#b_semur = {
-				#}
-				b_dijon = {
-				}
-				#b_autun = {
-				#}
-				b_vezelay = {
-				}
-				b_avallon = {
-				}
-				b_citeaux = {
-				}
-				b_beaune = {
-				}
-				b_noyers = {
-				}
-			}
-			c_autun = {
-				color={ 30 168 232 }
-				color2={ 255 255 255 }
-				
-				b_autun = {
-				}
-			}
-			c_semur = {
-				color={ 30 168 232 }
-				color2={ 255 255 255 }
-				
-				b_semur = {
-				}
-			}
+			
 			c_charolais = {
 				color={ 36 174 238 }
 				color2={ 255 255 255 }
@@ -31134,46 +31370,6 @@ e_france = {
 				b_digoine = {
 				}
 				b_joncy = {
-				}
-			}
-			c_auxerre = {
-				color={ 97 26 228 }
-				color2={ 255 255 255 }
-				
-				b_auxerre = {
-				}
-				b_druyes = {
-				}
-				b_tonnerre = {
-				}
-				b_pontigny = {
-				}
-				b_cravant = {
-				}
-				b_crisenon = {
-				}
-				b_stsauveurenpuisaye = {
-				}
-				b_mailly = {
-				}
-			}
-			c_nevers = {
-				color={ 33 171 235 }
-				color2={ 255 255 255 }
-				
-				b_courtenay = {
-				}
-				b_nevers = {
-				}
-				b_lacharite = {
-				}
-				b_donzy = {
-				}
-				b_chateauchinon = {
-				}
-				b_vandenesse = {
-				}
-				b_clamecy = {
 				}
 			}
 		}
@@ -31362,6 +31558,12 @@ e_france = {
 				b_montauban = {
 				}
 				b_gourdon = {
+				}
+				b_montat = {
+				}
+				b_duravel = {
+				}
+				b_cabrerets = {
 				}
 			}
 			c_rouergue = {
@@ -31555,6 +31757,14 @@ e_france = {
 				b_mirande = {
 				}
 				b_saint_gaudens = {
+				}
+				b_montrejeau = {
+				}
+				b_lannemezan = {
+				}
+				b_cazeres = {
+				}
+				b_masseube = {
 				}
 			}
 		}
@@ -32132,6 +32342,14 @@ e_france = {
 				
 				b_draguignan = {
 				}
+				b_toulon = {
+				}
+				b_brignoles = {
+				}
+				b_frejus = {
+				}
+				b_hyeres = {
+				}
 			}
 			c_forcalquier = {
 				color={ 151 42 72 }
@@ -32340,6 +32558,14 @@ e_france = {
 				color2={ 255 255 255 }
 				
 				b_valence = {
+				}
+				b_die = {
+				}
+				b_crest = {
+				}
+				b_mens = {
+				}
+				b_bourdeaux = {
 				}
 			}
 			c_lyon = {

@@ -75,6 +75,9 @@ d_reims;Reims;;;;;;;;;;;;;x
 d_alencon;Alençon;;;;;;;;;;;;;x
 d_nemours;Nemours;;;;;;;;;;;;;x
 d_crisana;Crisana;;;;;;;;;;;;;x
+d_hum;Hum;;;;;;;;;;;;;x
+d_charolais;Charolais;;;;;;;;;;;;;x
+d_felvidek;Felvidek;;;;;;;;;;;;;x
 
 d_biscay;Biscay;;;;;;;;;;;;;x
 d_osuna;Osuna;;;;;;;;;;;;;x
@@ -84,6 +87,7 @@ k_libya;Libya;;;;;;;;;;;;;x
 
 k_galicia;Galicia;;;;;;;;;;;;;x
 k_seville;Seville;;;;;;;;;;;;;x
-
+k_belgica;Belgica;;;;;;;;;;;;;x
 #
 e_mesopotamia;Mesopotamia;;;;;;;;;;;;;x
+e_belgica;Belgica;;;;;;;;;;;;;x

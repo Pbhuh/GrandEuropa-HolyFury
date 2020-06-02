@@ -1,0 +1,16 @@
+PROV2106;Ourique;Ourique;Ourique;;Ourique;;;;;;;;;x
+PROV2107;Beja;Beja;Beja;;Beja;;;;;;;;;x
+PROV2108;Tavira;Tavira;Tavira;;Tavira;;;;;;;;;x
+PROV2109;Zafra;Zafra;Zafra;;Zafra;;;;;;;;;x
+PROV2110;Llerena;Llerena;Llerena;;Llerena;;;;;;;;;x
+PROV2111;Constantina;Constantina;Constantina;;Constantina;;;;;;;;;x
+PROV2112;Tejada;Tejada;Tejada;;Tejada;;;;;;;;;x
+PROV2113;Cabra;Cabra;Cabra;;Cabra;;;;;;;;;x
+PROV2114;Ecija;Ecija;Ecija;;Ecija;;;;;;;;;x
+PROV2115;Carmona;Carmona;Carmona;;Carmona;;;;;;;;;x
+PROV2116;Almonte;Almonte;Almonte;;Almonte;;;;;;;;;x
+PROV2117;Utrera;Utrera;Utrera;;Utrera;;;;;;;;;x
+PROV2118;Jerez;Jerez;Jerez;;Jerez;;;;;;;;;x
+PROV2119;Medina Sidonia;Medina Sidonia;Medina Sidonia;;Medina Sidonia;;;;;;;;;x
+PROV2120;Ronda;Ronda;Ronda;;Ronda;;;;;;;;;x
+PROV2121;Moron;Moron;Moron;;Moron;;;;;;;;;x
