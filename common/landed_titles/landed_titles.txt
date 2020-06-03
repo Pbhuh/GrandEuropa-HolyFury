@@ -31310,8 +31310,8 @@ e_france = {
 				}
 				b_tournus = {
 				}
-				b_louhans = {
-				}
+				#b_louhans = {
+				#}
 				b_chamilly = {
 				}
 				b_seurre = {
@@ -32433,8 +32433,8 @@ e_france = {
 				}
 				b_conflens = {
 				}
-				b_thonon = {
-				}
+				#b_thonon = {
+				#}
 				b_st_jean = {
 					italian = "San Giovanni"
 				}
@@ -32486,8 +32486,6 @@ e_france = {
 				}
 				b_yvoire = {
 				}
-				b_annecy = {
-				}
 				b_thonex = {
 				}
 				b_meinier = {
@@ -32520,6 +32518,32 @@ e_france = {
 				b_chatel_argent = {
 				}
 				b_arnad = {
+				}
+			}
+			c_bresse = {
+				color={ 137 5 140 }
+				color2={ 255 255 255 }
+				
+				b_bourg_bresse = {
+				}
+				b_louhans = {
+				}
+				b_bresse = {
+				}
+				b_bressex = {
+				}
+			}
+			c_chablais = {
+				color={ 108 38 50 }
+				color2={ 255 255 255 }
+				
+				b_annecy = {
+				}
+				b_thonon = {
+				}
+				b_chablais = {
+				}
+				b_chablaisx = {
 				}
 			}
 		}

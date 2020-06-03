@@ -25,7 +25,7 @@ religion = norse_pagan
 
 # History
 790.1.1 = {
-	culture = german
+	culture = low_german
 	religion = catholic
 	
 	b_detmold = castle

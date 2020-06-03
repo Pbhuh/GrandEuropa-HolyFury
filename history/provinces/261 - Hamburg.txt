@@ -27,9 +27,9 @@ religion = norse_pagan
 	b_bergedorf = castle
 	b_altona = city
 	capital = b_hamburg
-	culture = german
 	religion = catholic
 }
+867.1.1 = { culture = low_german }
 1224.1.1 = { b_hamburg = city }
 1224.1.1 = { b_buxtehude = castle } 
 1224.1.1 = { remove_settlement = b_altona } 

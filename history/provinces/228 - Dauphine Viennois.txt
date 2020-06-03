@@ -19,7 +19,7 @@ b_grenoble = city
 #b_valreas = city
 
 # Misc
-culture = occitan
+culture = franco_provencal
 religion = catholic
 
 # History

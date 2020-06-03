@@ -19,11 +19,11 @@ religion = norse_pagan
 
 # History
 790.1.1 = {
-	culture = german
 	religion = catholic
 	
 	b_stade = castle
 	b_bremen = city
 	capital = b_bremen
 }
+867.1.1 = { culture = low_german }
 1249.1.1 = { trade_post = b_vorrade }

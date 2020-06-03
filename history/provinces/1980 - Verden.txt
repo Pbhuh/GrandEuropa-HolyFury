@@ -13,7 +13,6 @@ religion = norse_pagan
 
 # History
 790.1.1 = {
-	culture = german
 	religion = catholic
 
 	b_rotenburg_verden = castle
@@ -21,6 +20,7 @@ religion = norse_pagan
 	b_ottersberg = temple
 	capital = b_rotenburg_verden
 }
+867.1.1 = { culture = low_german }
 936.1.1 = {
 	capital = b_verden
 }

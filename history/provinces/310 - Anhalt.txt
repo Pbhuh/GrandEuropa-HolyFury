@@ -19,5 +19,4 @@ religion = slavic_pagan
 	b_bernburg = temple
 	#b_lindau_zeist = temple
 }
-1100.1.1 = { culture = german } 
-1100.1.1 = { religion = catholic } 
+867.1.1 = { culture = german religion = catholic }

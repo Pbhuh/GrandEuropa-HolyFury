@@ -1,0 +1,15 @@
+# 237 - Savoie
+
+# County Title
+title = c_chablais
+
+# Settlements
+max_settlements = 4
+b_annecy = city
+b_thonon = castle
+
+# Misc
+culture = franco_provencal
+religion = catholic
+
+# History

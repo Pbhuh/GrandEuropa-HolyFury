@@ -21,10 +21,10 @@ religion = norse_pagan
 
 # History
 790.1.1 = {
-	culture = german
 	religion = catholic
 
 	b_braunschweig = castle
 	b_hildesheim = temple	
 }
+867.1.1 = { culture = low_german }
 #1127.1.1 = { b_waldeck = castle }

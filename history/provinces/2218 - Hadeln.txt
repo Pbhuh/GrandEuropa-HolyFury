@@ -14,8 +14,8 @@ religion = norse_pagan
 
 # History
 790.1.1 = {
-	culture = german
 	religion = catholic
 	
 	b_otterndorf = castle
 }
+867.1.1 = { culture = low_german }

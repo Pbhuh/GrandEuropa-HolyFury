@@ -15,7 +15,6 @@ religion = norse_pagan
 
 # History
 790.1.1 = {
-	culture = german
 	religion = catholic
 	
 	#b_auburg = castle
@@ -26,3 +25,4 @@ religion = norse_pagan
 803.1.1 = {
 	capital = b_minden 
 }
+867.1.1 = { culture = low_german }

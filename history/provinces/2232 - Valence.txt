@@ -9,7 +9,8 @@ max_settlements = 4
 b_valence = castle
 
 # Misc
-culture = occitan
+culture = franco_provencal
 religion = catholic
 
 # History
+867.1.1 = { culture = occitan }

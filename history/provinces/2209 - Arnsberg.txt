@@ -16,7 +16,6 @@ religion = norse_pagan
 
 # History
 790.1.1 = {
-	culture = german
 	religion = catholic
 	
 	b_werl = castle
@@ -24,5 +23,5 @@ religion = norse_pagan
 	b_soest = city
 	capital = b_arnsberg
 }
-
+867.1.1 = { culture = low_german }
 

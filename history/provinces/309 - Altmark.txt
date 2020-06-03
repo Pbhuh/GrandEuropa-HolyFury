@@ -29,6 +29,7 @@ religion = norse_pagan
 	#b_halberstedt = temple
 	capital = b_werben
 }
-1125.1.1 = { religion = catholic }
-1125.1.1 = { culture = german } 
+867.1.1 = { culture = low_german religion = catholic  }
+#1125.1.1 = { }
+#1125.1.1 = { culture = german } 
 1181.1.1 = { b_salzwedel = castle }

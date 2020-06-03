@@ -21,7 +21,6 @@ religion = norse_pagan
 
 # History
 790.1.1 = {
-	culture = german
 	religion = catholic
 	
 	#b_tecklenburg = castle
@@ -30,4 +29,5 @@ religion = norse_pagan
 	b_iburg = city
 	b_furstenau = castle
 }
+867.1.1 = { culture = low_german }
 #1205.1.1 = { b_bentheim = castle } 

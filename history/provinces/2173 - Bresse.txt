@@ -1,0 +1,15 @@
+# 237 - Savoie
+
+# County Title
+title = c_bresse
+
+# Settlements
+max_settlements = 4
+b_bourg_bresse = castle
+b_louhans = city
+
+# Misc
+culture = franco_provencal
+religion = catholic
+
+# History

@@ -1,0 +1,43 @@
+# Old Saxon or Old Frankish or Frisian province converts to Dutch
+province_event = {
+	id = GEU.1
+	desc = EVTDESC_GEU_1
+	picture = GFX_evt_tribal_lands
+
+	trigger = {
+		should_evolve_cultures_trigger = yes
+		county = { region = custom_frisia }
+		culture = frisian
+		owner = {
+			NOT = { culture = ROOT }
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 3600
+		modifier = {
+			factor = 0.5
+			owner = {
+				culture = new_frisian
+			}
+		}
+		modifier = {
+			factor = 0.3
+			OR = {
+				has_game_rule = {
+					name = culture_conversion
+					value = faster_melting_pots
+				}
+				has_game_rule = {
+					name = culture_conversion
+					value = faster_melting_pots_and_slower_normal
+				}
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTA_CM_3
+		culture = new_frisian
+	}
+}

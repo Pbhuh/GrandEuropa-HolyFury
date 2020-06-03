@@ -4,14 +4,14 @@
 title = c_zutphen
 
 # Settlements
-max_settlements = 5
+max_settlements = 4
 
 b_doetinchem = castle
 b_zutphen = city
 
 # Misc
-culture = frisian
+culture = old_saxon
 religion = catholic
 
 # History
-790.1.1 = { culture = dutch }
+867.1.1 = { culture = low_german }

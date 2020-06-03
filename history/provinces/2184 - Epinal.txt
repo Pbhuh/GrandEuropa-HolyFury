@@ -22,5 +22,5 @@ culture = old_frankish
 religion = catholic
 
 # History
-790.1.1 = { culture = german }
+790.1.1 = { culture = frankish }
 #1187.1.1 = { b_luneville = castle }
