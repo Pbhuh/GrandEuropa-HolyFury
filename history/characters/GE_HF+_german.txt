@@ -20,3 +20,77 @@
 		death = yes
 	}
 }
+
+167762 = {
+	name="Ekbert"
+	dynasty=656
+	religion="catholic"
+	culture="low_german"
+	father=167759
+	932.1.1 = {
+		birth="932.1.1"
+	}
+	994.4.1 = {
+		death="994.4.1"
+	}
+}
+260591 = {
+	name = "Rumhold"
+	religion = catholic
+	culture = low_german
+	880.1.1 = {
+		birth = yes
+	}
+	941.1.1 = {
+		death = yes
+	}
+}
+260573 = {
+	name = "Adaldag"
+	religion = catholic
+	culture = low_german
+	900.1.1 = {
+		birth = yes
+	}
+	988.4.28 = {
+		death = yes
+	}
+}
+
+167761 = {
+	name="Wichmann"
+	dynasty=656
+	religion="catholic"
+	culture="low_german"
+	father=167759
+	930.1.1 = {
+		birth="930.1.1"
+	}
+	967.9.22 = {
+		death="967.9.22"
+	}
+}
+260592 = {
+	name = "Amadeus"
+	dynasty = 1062254
+	religion = catholic
+	culture = dutch
+	899.1.1 = {
+		birth = yes
+	}
+	938.1.1 = {
+		death = yes
+	}
+}
+260593 = {
+	name = "Balderic"
+	dynasty = 1062255 
+	religion = catholic
+	culture = dutch
+	897.1.1 = {
+		birth = yes
+	}
+	975.1.1 = {
+		death = yes
+	}
+}

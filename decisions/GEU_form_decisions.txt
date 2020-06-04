@@ -1,0 +1,246 @@
+decisions = {
+
+	create_k_belgica = {
+		only_independent = yes
+		is_high_prio = yes
+		ai_check_interval = 60
+		
+		potential = {
+			NOT = { 
+				higher_tier_than = DUKE 
+			}
+			OR = {
+			has_landed_title = d_brabant
+			has_landed_title = d_flanders
+			has_landed_title = d_hainaut
+			has_landed_title = d_liege
+			}
+			culture = dutch
+			k_belgica = {
+				has_holder = no
+			}
+			k_belgica = {
+				is_titular = yes
+			}
+			NOR = {
+				has_alternate_start_setting = {
+					setting = dejure
+					value = random
+				}
+				has_alternate_start_setting = {
+					setting = title_names
+					value = random
+				}
+				has_alternate_start_setting = {
+					setting = title_names
+					value = random_including_duchies
+				}
+			}
+		}
+		allow = {
+			is_adult = yes
+			independent = yes
+			war = no
+			NOT = { trait = incapable }
+			completely_controls = d_brabant
+			completely_controls = d_flanders
+			completely_controls = d_hainaut
+			conditional_tooltip =  {
+				trigger = {
+					ai = no
+				}
+
+				prestige = 1000
+			}
+			wealth = 100
+		}
+		effect = {
+			wealth = -100
+			prestige = 500
+			primary_title = {
+				save_event_target_as = current_primary_title
+			}
+			activate_title = { title = k_belgica status = yes }
+			k_belgica = {
+				show_scope_change = no
+				grant_title = ROOT
+				copy_title_laws = event_target:current_primary_title
+			}
+			d_brabant = {
+				show_scope_change = no
+				de_jure_liege = k_belgica
+			}
+			d_flanders = {
+				show_scope_change = no
+				de_jure_liege = k_belgica
+			}
+			d_hainaut = {
+				show_scope_change = no
+				de_jure_liege = k_belgica
+			}
+			if = {
+				limit = { completely_controls = d_liege }
+				d_liege = {
+					show_scope_change = no
+					de_jure_liege = k_belgica
+				}
+			}
+			if = {
+				limit = { completely_controls = d_holland }
+				d_liege = {
+					show_scope_change = no
+					de_jure_liege = k_belgica
+				}
+			}
+			if = {
+				limit = { completely_controls = d_artois }
+				d_liege = {
+					show_scope_change = no
+					de_jure_liege = k_belgica
+				}
+			}
+			if = {
+				limit = { completely_controls = d_luxembourg }
+				d_liege = {
+					show_scope_change = no
+					de_jure_liege = k_belgica
+				}
+			}
+			if = {
+				limit = { completely_controls = d_koln }
+				d_liege = {
+					show_scope_change = no
+					de_jure_liege = k_belgica
+				}
+			}
+			if = {
+				limit = { has_nickname = no }
+				give_nickname = nick_the_great
+			}
+			if = {
+				limit = {
+					has_landed_title = c_brabant
+					NOT = { capital_scope = { province_id = 117 } }
+
+				}
+				c_brabant = { 
+					show_scope_change = no
+					ROOT = { 
+						show_scope_change = no
+						capital = PREV 
+					} 
+				}
+			}
+			hidden_tooltip = { character_event = { id = 62922 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	create_e_belgica = {
+		is_high_prio = yes
+		only_playable = yes
+		ai_check_interval = 120
+		
+		potential = {
+			OR = {
+				culture = dutch
+				culture = new_frisian
+				culture = frisian
+			}
+			any_demesne_title = {
+				OR = {
+					tier = KING
+					tier = EMPEROR
+				}
+			}
+			e_belgica = {
+				is_titular = yes
+			}
+			e_belgica = {
+				has_holder = no
+			}
+			is_alternate_start = no
+		}
+		
+		allow = {
+			is_adult = yes
+			prestige = 5000
+			war = no
+			NOT = { trait = incapable }
+			AND = {	
+				completely_controls = k_frisia
+				completely_controls = d_hainaut
+				completely_controls = d_brabant
+				completely_controls = d_artois
+				completely_controls = d_flanders
+				completely_controls = d_liege
+			}
+		}
+		
+		effect = {
+			custom_tooltip = {
+				#text = form_lcr_tt
+				grant_title_no_opinion = e_belgica 
+			}
+			
+			hidden_tooltip = {
+			
+				primary_title = {
+					e_belgica = {
+						copy_title_laws = PREV
+						copy_title_history = PREV
+					}
+				}
+				
+				capital = PREV
+
+				###Slavic kingdoms go to LCR
+				d_hainaut = { de_jure_liege = k_belgica }
+				d_brabant = { de_jure_liege = k_belgica }
+				d_artois = { de_jure_liege = k_belgica }
+				d_flanders = { de_jure_liege = k_belgica }
+				d_liege = { de_jure_liege = k_belgica }
+				k_frisia = { de_jure_liege = e_belgica }
+				k_belgica = { de_jure_liege = e_belgica }
+				
+				###If you also completely control Pomerania, it's added to LCR as well
+				if = {
+					limit = {
+						completely_controls = d_luxembourg 
+					}
+					d_luxembourg = { de_jure_liege = k_belgica }
+				}
+				if = {
+					limit = {
+						completely_controls = d_koln 
+					}
+					d_koln = { de_jure_liege = k_belgica }
+				}
+				if = {
+					limit = {
+						completely_controls = d_picardy 
+					}
+					d_picardy = { de_jure_liege = k_belgica }
+				}
+				if = {
+					limit = {
+						completely_controls = d_reims 
+					}
+					d_reims = { de_jure_liege = k_belgica }
+				}
+
+				#ROOT = {
+				#	narrative_event = { id = HFP.99999 }
+				#}
+				#any_playable_ruler = {
+				#	narrative_event = { id = HFP.99999 }
+				#}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

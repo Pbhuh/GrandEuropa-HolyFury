@@ -1,0 +1,76 @@
+106550 = {
+	name="Dirk" #Dirk II
+	dynasty=432
+	martial=8
+	diplomacy=6
+	intrigue=4
+	stewardship=5
+	religion="catholic"
+	culture="new_frisian"
+	trait="tough_soldier"
+	father = 106551
+	920.1.1={
+		birth="920.1.1"
+	}
+	952.1.1={
+		add_spouse=94000
+	}
+	988.5.6={
+		death="988.5.6"
+	}
+}
+
+106551 = {
+	name="Dirk" #Dirk I
+	dynasty=432
+	martial=8
+	diplomacy=6
+	intrigue=4
+	stewardship=5
+	religion="catholic"
+	culture="new_frisian"
+	trait="tough_soldier"
+	father=31060
+	867.1.1={
+		birth="867.1.1"
+	}
+	939.1.1={
+		death="939.1.1"
+	}
+}
+
+263009 = {
+	name = "Meginhard" #Meginhard IV
+	religion = "catholic"
+	culture = "low_german"
+	father = 263005 #Eberhard
+	mother = 263006
+	dynasty = 1064000
+	898.1.1 = {
+		birth = yes
+	}
+	915.1.1 = {
+		add_spouse = 263010
+	}
+	930.1.2 = {
+		add_spouse = 263012
+	}
+	955.3.15 = {
+		death = yes
+	}
+}
+
+263013 = {
+	name = "Wichmann" #Wichman IV
+	religion = "catholic"
+	culture = "low_german"
+	father = 263009 #Meginhard IV
+	mother = 263012
+	dynasty = 1064000
+	934.1.1 = {
+		birth = yes
+	}
+	973.3.15 = {
+		death = yes
+	}
+}

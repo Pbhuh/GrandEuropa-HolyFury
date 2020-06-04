@@ -128,12 +128,12 @@ e_bulgaria = {
 }
 
 e_belgica = {
-	color={ 245 100 20 }
+	color={ 205 150 20 }
 	color2={ 220 220 20 }
 	
 	culture = dutch
 	
-	#capital = 
+	capital = 117 #Brussels/Brabant
 
 	allow = {
 		conditional_tooltip = {
@@ -150,12 +150,12 @@ e_belgica = {
 }
 
 k_belgica = {
-	color={ 245 100 20 }
+	color={ 215 160 20 }
 	color2={ 220 220 20 }
 	
 	culture = dutch
 	
-	#capital =
+	capital = 117 #Brussels/Brabant
 	
 	allow = {
 		conditional_tooltip = {
@@ -29457,6 +29457,12 @@ e_carpathia = {
 				b_ipolysag = {
 					german = Eipelschlag
 				}
+				b_sahy = {
+				}
+				b_lucenec = {
+				}
+				b_hont = {
+				}
 			}
 			
 			c_trencin = {
@@ -29951,7 +29957,12 @@ e_carpathia = {
 				color2={ 255 255 255 }
 				
 				b_zemplen = {
-					
+				}
+				b_vranov = {
+				}
+				b_stropkov = {
+				}
+				b_humenne = {
 				}
 			}
 		}
@@ -30008,6 +30019,12 @@ e_carpathia = {
 			
 				b_debrecen = {
 				}
+				b_hajdu = {
+				}
+				b_balmaz = {
+				}
+				b_vamos = {
+				}
 			}
 			c_pest = {
 				color={ 176 67 67 }
@@ -30044,6 +30061,12 @@ e_carpathia = {
 				b_kecskemet = {
 				}
 				b_kiskunhalas = {
+				}
+				b_kiskunfelegyhaza = {
+				}
+				b_izsak = {
+				}
+				b_kiskoros = {
 				}
 			}
 			c_csanad = {
@@ -30135,6 +30158,10 @@ e_carpathia = {
 				}
 				b_cluj = {
 				}
+				b_egerbegy = {
+				}
+				b_kolozs = {
+				}
 			}
 			
 			c_maros = {
@@ -30142,6 +30169,14 @@ e_carpathia = {
 				color2={ 255 255 255 }
 				
 				b_maros = {
+				}
+				b_szasz_regen = {
+				}
+				b_koszvenyes = {
+				}
+				b_szovata = {
+				}
+				b_ernye = {
 				}
 			}
 			
@@ -30151,6 +30186,14 @@ e_carpathia = {
 				color2={ 255 255 255 }
 			
 				b_deva = {
+				}
+				b_hatszeg = {
+				}
+				b_vajdahunya = {
+				}
+				b_petrazseny = {
+				}
+				b_szaszvaros = {
 				}
 			}
 		}
@@ -30163,6 +30206,14 @@ e_carpathia = {
 				color2={ 255 255 255 }
 
 				b_arad = {
+				}
+				b_pecksa = {
+				}
+				b_vilagos = {
+				}
+				b_pankota = {
+				}
+				b_lippa = {
 				}
 			}
 			
@@ -30198,6 +30249,14 @@ e_carpathia = {
 				b_nagykaroly = { 
 					slovieni = Carei
 					romanian = Carei
+				}
+				b_szatmar_nemeti = {
+				}
+				b_nagy_karoly = {
+				}
+				b_mezo-petri = {
+				}
+				b_er-endred = {
 				}
 			}
 		}
@@ -30243,7 +30302,14 @@ e_carpathia = {
 				
 				b_bechkereke = {
 				}
-				
+				b_nagy-kikinda = {
+				}
+				b_valkany = {
+				}
+				b_szerb = {
+				}
+				b_kis-zombor = {
+				}
 			}
 			c_bacs = {
 				color={ 156 130 67 }
@@ -30280,6 +30346,12 @@ e_carpathia = {
 				b_somlo = {
 				}
 				b_rechycha = {
+				}
+				b_karanseres = {
+				}
+				b_varboksan = {
+				}
+				b_boksanbaya = {
 				}
 			}
 		}
