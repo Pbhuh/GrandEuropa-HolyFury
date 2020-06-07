@@ -3,27 +3,29 @@
 # County Title
 title = c_faro
 
-# Settlements castle/city/temple
-max_settlements = 3
+# Settlements
+max_settlements = 4
+b_faro = castle
+b_tavira = city
+b_loule = temple
+#b_castromarim = castle
+#b_alcoutim = castle
+#b_saobrasdealportel = castle
+#b_olhao = castle
 
-b_albufeira = castle 
-b_faro = city
-# b_loule = temple
-# b_almancil = city
 
-# Misc
 culture = visigothic
-religion = catholic
+religion = sunni
 
 # History
-763.1.1 = {
-	culture = maghreb_arabic
-	religion = sunni
-}
-1000.1.1 = {
+
+939.1.1 = {
 	culture = andalusian_arabic
 }
-1299.1.1 = {
-	culture = portuguese
+
+1181.1.1 = { trade_post = b_fieschi }
+
+1264.1.1 = {
+	culture = portuguese 
 	religion = catholic
 }

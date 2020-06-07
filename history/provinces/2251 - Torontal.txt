@@ -5,7 +5,7 @@ title = c_torontal
 
 # Settlements
 max_settlements = 3
-b_temesvar = tribal
+b_bechkereke = tribal
 
 # Misc
 culture = avar
@@ -13,17 +13,15 @@ religion = tengri_pagan
 
 # History
 800.1.1 = {
-	b_temesvar = castle
-	b_csak = city
-	b_lugos = temple
+	b_bechkereke = castle
 }
 895.1.1 = {
-	b_temesvar = tribal
+	b_bechkereke = tribal
 }
 930.1.1 = { 
 	culture = hungarian 
 }
 950.1.1 = {
 	religion = catholic
-	b_temesvar = castle
+	b_bechkereke = castle
 }

@@ -5,7 +5,7 @@ title = c_zemplen
 
 # Settlements
 max_settlements = 3
-b_beregszasz = tribal
+b_zemplen = tribal
 #b_munkacs = city
 #b_perecseny = temple
 
@@ -24,7 +24,5 @@ religion = slavic_pagan
 950.1.1 = { religion = catholic }
 950.1.1 = { culture = hungarian }
 1000.1.1 = {
-	b_beregszasz = castle
-	b_munkacs = city
-	b_perecseny = temple
+	b_zemplen = castle
 }

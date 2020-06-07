@@ -22,7 +22,7 @@ religion = tengri_pagan
 # History
 800.1.1 = {
 	b_pest = castle
-	b_kecskemet = city
+	#b_kecskemet = city
 }
 895.1.1 = {
 	remove_settlement = b_kecskemet
@@ -32,7 +32,7 @@ religion = tengri_pagan
 950.1.1 = { 
 	religion = catholic 
 	b_pest = castle
-	b_kecskemet = city
+	#b_kecskemet = city
 }
 1187.1.1 = { b_kiskunhalas = castle }
 

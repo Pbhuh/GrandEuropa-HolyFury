@@ -3,29 +3,29 @@
 # County Title
 title = c_sevilla
 
-# Settlements castle/city/temple
-max_settlements = 5
+# Settlements
+max_settlements = 6
+b_sevilla = castle
+b_carmona = temple
+b_ecija = city
+b_utrera= castle
+b_sevimoron = city
 
-b_albaidadelaljerafe = castle
-b_seville = city
-b_sanlucarlemayor = temple
-b_santiponce = city
-# b_laalgaba = castle
-# b_tomares = city
+#b_alcaladeguadaira
+#b_doshermanas = city
+#b_utrera = castle
+#b_laalgaba = castle
 
-# Misc
 culture = visigothic
-religion = catholic
+religion = sunni
 
 # History
-762.1.1 = {
-	culture = bedouin_arabic
-	religion = sunni
-}
-1000.1.1 = {
+
+929.1.1 = {
 	culture = andalusian_arabic
 }
-1298.1.1 = {
+
+1263.1.1 = {
 	culture = castillan
 	religion = catholic
 }

@@ -60,6 +60,7 @@ technology = {
 		d_lower_silesia
 		d_upper_silesia
 		d_crisana
+		d_felvidek
 	}
 	
 	769 = {
@@ -89,6 +90,8 @@ technology = {
 		d_croatia
 		d_dalmatia
 		d_syrmia
+		#NEW
+		d_hum
 	}
 	
 	769 = {

@@ -217,7 +217,7 @@ province_event = {
 		modifier = {
 			factor = 0.5
 			owner = {
-				culture = german
+				culture = low_german
 			}
 		}
 		modifier = {
@@ -237,7 +237,7 @@ province_event = {
 
 	option = {
 		name = EVTOPTA_CM_4
-		culture = german
+		culture = low_german
 	}
 }
 

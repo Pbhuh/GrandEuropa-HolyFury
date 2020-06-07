@@ -7,9 +7,9 @@ title = c_feher
 max_settlements = 4
 
 b_feher = tribal
-b_arad = temple
+#b_arad = temple
 
-#b_elek = castle
+b_elek = temple
 #b_abrudbanya = castle
 #b_nagyenyed = castle
 #b_vizakna = castle

@@ -63,6 +63,10 @@ technology = {
 		d_artois
 		d_neckar
 		d_gothien
+		d_reims
+		d_alencon
+		d_charolais
+		d_nemours
 		#NEW splitduchies		
 		d_liege
 		d_niederbayern

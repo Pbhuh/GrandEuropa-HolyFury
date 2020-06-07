@@ -6,7 +6,7 @@ title = c_sens
 # Settlements
 max_settlements = 4
 b_sens = castle
-b_montargis = temple
+#b_montargis = temple
 #b_nemours = city
 
 #b_chateaulandon = castle

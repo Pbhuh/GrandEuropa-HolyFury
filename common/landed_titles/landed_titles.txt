@@ -5126,8 +5126,8 @@ e_germany = {
 				}
 				b_doaumont = {
 				}
-				b_stenay = {
-				}
+				#b_stenay = {
+				#}
 				b_etain = {
 				}
 			}
@@ -5588,6 +5588,8 @@ e_germany = {
 				#b_kulmbach = {
 				#}
 				b_hohenburg = {
+				}
+				b_schwabach = {
 				}
 				#b_nordlingen = {
 				#}
@@ -6376,8 +6378,8 @@ e_germany = {
 				}
 				b_cadolzburg = {
 				}
-				b_colmberg = {
-				}
+				#b_colmberg = {
+				#}
 				b_roth = {
 				}
 				b_crailsheim = {
@@ -6411,7 +6413,9 @@ e_germany = {
 				b_ansbach = { }
 				b_rothenburg_franken = { }
 				b_windsheim = { }
-				b_erlangen = { }
+				b_herrieden = { }
+				b_colmberg = { }
+				b_wornitz = { }
 				#b_ansbach2 = { }
 				#b_ansbach3 = { }
 				#b_ansbach4 = { }
@@ -6453,6 +6457,8 @@ e_germany = {
 				#}
 				b_weinheim = { }
 				b_neckargmund = { }
+				b_sinsheim = { }
+				b_walldorf = { }
 			}
 			c_mainz = {
 				color={ 129 129 129 }
@@ -6733,8 +6739,8 @@ e_germany = {
 			
 				b_ulm = {
 				}
-				b_zwiefalten = {
-				}
+				#b_zwiefalten = {
+				#}
 				b_teck = {
 				}
 				b_biberach = {
@@ -29958,7 +29964,7 @@ e_carpathia = {
 				
 				b_zemplen = {
 				}
-				b_vranov = {
+				b_vranov_zemplen = {
 				}
 				b_stropkov = {
 				}
@@ -30051,8 +30057,8 @@ e_carpathia = {
 				}
 				b_abrahamtelke = {
 				}
-				b_kiskoros = {
-				}
+				#b_kiskoros = {
+				#}
 			}
 			c_kiskun = {
 				color={ 186 57 57 }
@@ -30678,7 +30684,7 @@ e_france = {
 				}
 				b_mouscron = {
 				}
-				b_villeneuve = {
+				b_villeneuve_rijsel = {
 				}
 			}
 		}
@@ -30773,8 +30779,8 @@ e_france = {
 				}
 				b_lisieux = {
 				}
-				b_sees = {
-				}
+				#b_sees = {
+				#}
 				b_honfleur = {
 				}
 				b_brionne = {
@@ -30826,8 +30832,8 @@ e_france = {
 				
 				b_larocheguyon = {
 				}
-				b_mantes = {
-				}
+				#b_mantes = {
+				#}
 				b_pontoise = {
 				}
 				b_harcourt = {
@@ -30938,8 +30944,8 @@ e_france = {
 				}
 				b_lepuiset = {
 				}
-				b_sully = {
-				}
+				#b_sully = {
+				#}
 				b_meung = {
 				}
 				b_janville = {
@@ -31034,8 +31040,6 @@ e_france = {
 			c_rethel = {
 				color={ 105 125 145 }
 				color2={ 255 255 255 }
-				b_sedan = {
-				}
 				b_rethel = {
 				}
 				b_stenay = {
@@ -31280,8 +31284,8 @@ e_france = {
 				}
 				b_compiegne = {
 				}
-				b_crepy = {
-				}
+				#b_crepy = {
+				#}
 				b_creil = {
 				}
 				b_roissy = {
@@ -31351,8 +31355,8 @@ e_france = {
 				color={ 33 171 235 }
 				color2={ 255 255 255 }
 				
-				b_courtenay = {
-				}
+				#b_courtenay = {
+				#}
 				b_nevers = {
 				}
 				b_lacharite = {
@@ -32398,8 +32402,6 @@ e_france = {
 				b_marseille = {
 				}
 				b_grimaud = {
-				}
-				b_frejus = {
 				}
 				b_grasse = {
 				}
